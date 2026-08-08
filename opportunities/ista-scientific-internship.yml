@@ -1,0 +1,64 @@
+id: ista-scientific-internship
+name: ISTA Scientific Internship
+organization: Institute of Science and Technology Austria
+categories:
+  - internship
+  - research
+official_url: https://phd.pages.ista.ac.at/scientific-internships/
+application_url: null
+description: >-
+  A year-round research internship arranged directly with an ISTA research
+  group or staff scientist. Internships normally last from two months to one
+  year and are subject to a group's interest, funding, and formal approval.
+
+geographies:
+  - scope: global
+    values: []
+delivery: in-person
+student_levels:
+  - undergraduate
+  - postgraduate
+  - doctoral
+  - recent-graduate
+fields:
+  - natural sciences
+  - computer science
+  - mathematics
+eligibility_summary: >-
+  Students or recent graduates of bachelor's or master's programmes in the
+  natural or computer sciences, mathematics, or related disciplines may apply.
+  Visiting PhD candidates may also contact relevant groups. Applicants must be
+  available for at least two months and should propose a start date at least
+  two months ahead.
+tags:
+  - paid
+  - research
+  - year-round
+
+benefits:
+  summary: >-
+    Scientific interns receive an employment contract and a minimum salary of
+    EUR 1,583 gross per month. Separately funded visiting students may have
+    different terms.
+  amount: 1583
+  currency: EUR
+  equity_required: false
+
+schedule:
+  type: rolling
+  timezone: Europe/Vienna
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://phd.pages.ista.ac.at/scientific-internships/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: >-
+  Applicants contact research groups directly; availability is not guaranteed.
+  This is the year-round Scientific Internship, not the separate centralized
+  ISTernship summer programme, which was paused for the 2026 cycle.
+

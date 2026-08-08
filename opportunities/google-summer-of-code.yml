@@ -1,0 +1,67 @@
+id: google-summer-of-code
+name: Google Summer of Code
+organization: Google
+categories:
+  - open-source
+official_url: https://summerofcode.withgoogle.com/
+application_url: https://summerofcode.withgoogle.com/programs/2026
+description: >-
+  An annual global programme in which accepted contributors complete a
+  mentored project with an open-source organization. The programme is aimed at
+  students and people who are beginners to open-source software development.
+
+geographies:
+  - scope: global
+    values: []
+delivery: remote
+student_levels:
+  - any-student
+  - recent-graduate
+fields:
+  - open-source software development
+eligibility_summary: >-
+  Contributors must be at least 18 when registering, be eligible to work in
+  their country of residence, and be a student or beginner to open source.
+  Additional participation-history, employment, and legal restrictions apply.
+tags:
+  - annual
+  - mentorship
+  - paid
+  - remote
+
+benefits:
+  summary: >-
+    Mentorship on an open-source project and, at Google's discretion, a
+    country-adjusted stipend subject to successful evaluations and payment
+    requirements.
+  amount: null
+  currency: null
+  equity_required: false
+
+schedule:
+  type: recurring
+  timezone: UTC
+  cycles:
+    - label: "2026 contributor applications"
+      opens_on: "2026-03-16"
+      deadline: "2026-03-31"
+      deadline_time: "18:00"
+  typical_open_months:
+    - 3
+  typical_close_months:
+    - 3
+
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://summerofcode.withgoogle.com/programs/2026
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+  - url: https://summerofcode.withgoogle.com/rules
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: >-
+  The 2026 contributor application period has ended and accepted projects have
+  been announced. A future cycle should not be inferred until Google publishes
+  its timeline.
+
