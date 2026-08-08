@@ -32,10 +32,10 @@ def normalize_url(value: str) -> str:
     if host.startswith("www."):
         host = host[4:]
     port = f":{parts.port}" if parts.port else ""
-    query = urlencode(
+    query = urlencode([
         (k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
         if not k.lower().startswith("utm_") and k.lower() not in TRACKING_KEYS
-    )
+    ])
     path = re.sub(r"/+", "/", parts.path).rstrip("/") or "/"
     return urlunsplit((parts.scheme.lower(), host + port, path, query, ""))
 
