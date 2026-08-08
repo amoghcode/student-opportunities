@@ -1,0 +1,36 @@
+id: blue-ocean-student-entrepreneur-competition
+name: Blue Ocean Student Entrepreneur Competition
+organization: Blue Ocean Student Entrepreneurs Corporation
+categories: [competition, student-founder-program]
+official_url: https://blueoceancompetition.org/
+description: >-
+  A free virtual entrepreneurship competition where high-school students around
+  the world develop a business concept and submit a five-minute video pitch.
+geographies:
+  - scope: global
+    values: []
+delivery: online
+student_levels: [school-student]
+fields: [entrepreneurship, all-fields]
+eligibility_summary: >-
+  Open worldwide to high-school-aged students, participating individually or in
+  teams of up to five, subject to the current competition rules.
+tags: [international, online, high-school, entrepreneurship, competition]
+benefits:
+  summary: Cash prizes, feedback, recognition, and entrepreneurship learning resources.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://blueoceancompetition.org/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: The official site is accepting registrations for the 2027 edition; a submission deadline was not recorded without a confirmed current rules page.

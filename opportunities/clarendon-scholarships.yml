@@ -1,0 +1,37 @@
+id: clarendon-scholarships
+name: Clarendon Scholarships
+organization: University of Oxford
+categories: [scholarship]
+official_url: https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon
+description: >-
+  Oxford's graduate scholarship scheme, offering full funding to academically
+  outstanding master's and DPhil applicants across all eligible disciplines.
+geographies:
+  - scope: global
+    values: []
+delivery: in-person
+student_levels: [postgraduate]
+fields: [all-fields]
+eligibility_summary: >-
+  All nationalities and fields are eligible. Applicants are automatically
+  considered by submitting an eligible Oxford graduate application by the
+  relevant December or January funding deadline for their course.
+tags: [international, united-kingdom, fully-funded, graduate, automatic-consideration]
+benefits:
+  summary: Course fees and a grant for living expenses for the applicable period of fee liability.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/London
+  cycles: []
+  typical_open_months: []
+  typical_close_months: [12, 1]
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: There is no separate scholarship application; the exact deadline depends on the chosen graduate course.

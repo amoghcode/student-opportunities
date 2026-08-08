@@ -1,0 +1,36 @@
+id: kaust-visiting-student-research-program
+name: KAUST Visiting Student Research Program
+organization: King Abdullah University of Science and Technology
+categories: [internship, research]
+official_url: https://admissions.kaust.edu.sa/study/internships
+description: >-
+  A two-to-six-month research internship that allows visiting STEM students to
+  work with a KAUST faculty member on an active research project in Saudi Arabia.
+geographies:
+  - scope: global
+    values: []
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [science, technology, engineering, mathematics]
+eligibility_summary: >-
+  Open internationally to eligible third- or fourth-year bachelor's students
+  and master's students in STEM disciplines. Project-specific requirements apply.
+tags: [international, saudi-arabia, fully-funded, rolling, research]
+benefits:
+  summary: USD 1,000 monthly stipend, private accommodation, return airfare, visa support, insurance, and programme activities.
+  amount: 1000
+  currency: USD
+  equity_required: false
+schedule:
+  type: rolling
+  timezone: Asia/Riyadh
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://admissions.kaust.edu.sa/study/internships
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: Applications are accepted throughout the year for available research projects.

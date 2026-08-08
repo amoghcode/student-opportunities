@@ -1,0 +1,36 @@
+id: epfl-life-sciences-summer-research-program
+name: EPFL Life Sciences Summer Research Program
+organization: EPFL School of Life Sciences
+categories: [internship, research]
+official_url: https://www.epfl.ch/schools/sv/education/summer-research-program/
+description: >-
+  An eight-week summer programme in which visiting students join an EPFL life
+  sciences laboratory and participate in research, seminars, and workshops.
+geographies:
+  - scope: global
+    values: []
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [life-sciences, biology, biotechnology]
+eligibility_summary: >-
+  Open to eligible students worldwide who are enrolled in a bachelor's degree
+  or the first year of a master's degree in life sciences or a related subject.
+tags: [international, switzerland, funded, summer, research]
+benefits:
+  summary: Stipend and programme support are provided according to the current call.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/Zurich
+  cycles: []
+  typical_open_months: []
+  typical_close_months: [11]
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://www.epfl.ch/schools/sv/education/summer-research-program/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: The 2026 round is closed. The programme has historically used a November 15 deadline; confirm the next call before applying.

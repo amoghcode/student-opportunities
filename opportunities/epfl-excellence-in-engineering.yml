@@ -1,0 +1,36 @@
+id: epfl-excellence-in-engineering
+name: EPFL Excellence in Engineering
+organization: EPFL School of Engineering
+categories: [internship, research]
+official_url: https://eee.epfl.ch/
+description: >-
+  A summer research programme that places selected students in laboratories at
+  EPFL's School of Engineering for a supervised scientific project.
+geographies:
+  - scope: global
+    values: []
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [engineering, science, technology]
+eligibility_summary: >-
+  Intended for high-achieving bachelor's and master's students worldwide in
+  engineering, science, and technology disciplines, subject to the current call.
+tags: [international, switzerland, funded, summer, research]
+benefits:
+  summary: Living allowance and eligible travel support are described in each programme call.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/Zurich
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://eee.epfl.ch/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: The 2026 application is closed; dates for the next cycle were not confidently published when verified.

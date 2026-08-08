@@ -1,0 +1,36 @@
+id: amgen-scholars-program
+name: Amgen Scholars Program
+organization: Amgen Foundation
+categories: [internship, research]
+official_url: https://amgenscholars.com/
+description: >-
+  A network of intensive undergraduate summer research programmes in biomedical
+  and biotechnology fields, hosted by participating universities around the world.
+geographies:
+  - scope: global
+    values: []
+delivery: in-person
+student_levels: [undergraduate]
+fields: [biomedical-science, biotechnology, life-sciences]
+eligibility_summary: >-
+  Eligibility and international access vary by host institution. Indian students
+  can apply to participating sites whose current rules accept worldwide applicants.
+tags: [international, funded, summer, biomedical, research]
+benefits:
+  summary: Research placement and financial support vary by participating host university.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: [2]
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://amgenscholars.com/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: Applicants must check the selected host university's eligibility, dates, and benefits; not every regional site accepts every nationality.

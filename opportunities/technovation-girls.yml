@@ -1,0 +1,39 @@
+id: technovation-girls
+name: Technovation Girls
+organization: Technovation
+categories: [competition, accelerator]
+official_url: https://www.technovation.org/
+description: >-
+  A free global technology and entrepreneurship programme in which young teams
+  build an app or AI-based solution addressing a community problem.
+geographies:
+  - scope: global
+    values: []
+delivery: hybrid
+student_levels: [school-student]
+fields: [technology, artificial-intelligence, entrepreneurship]
+eligibility_summary: >-
+  The competition serves eligible young people aged 8-18 worldwide. Technovation
+  publishes specific gender-identity eligibility guidance for competition submissions.
+tags: [international, free, girls, technology, entrepreneurship]
+benefits:
+  summary: Free curriculum, mentoring, global recognition, and competition awards that vary by season.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://www.technovation.org/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+  - url: https://www.technovation.org/educators/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: The 2026 season reached the semifinal stage; the next season's dates were not confirmed when verified.
