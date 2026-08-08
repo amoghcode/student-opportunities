@@ -1,0 +1,21 @@
+name: Report outdated information
+description: Report dates, eligibility, benefits, or other details that changed
+title: "[Outdated]: "
+labels: ["data-update", "needs-verification"]
+body:
+  - type: input
+    id: record
+    attributes: {label: Opportunity name or record link}
+    validations: {required: true}
+  - type: textarea
+    id: incorrect
+    attributes: {label: What is outdated?, description: Quote or identify the current field and explain the replacement.}
+    validations: {required: true}
+  - type: input
+    id: source
+    attributes: {label: Official source, placeholder: "https://..."}
+    validations: {required: true}
+  - type: textarea
+    id: context
+    attributes: {label: Additional context}
+

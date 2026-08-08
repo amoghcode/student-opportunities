@@ -1,0 +1,51 @@
+name: Submit an opportunity
+description: Suggest a new student opportunity for review
+title: "[Opportunity]: "
+labels: ["submission", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for contributing. A submission is reviewed before it becomes part of the dataset."
+  - type: input
+    id: name
+    attributes: {label: Opportunity name, placeholder: Official program name}
+    validations: {required: true}
+  - type: input
+    id: organization
+    attributes: {label: Organization, placeholder: Organization that operates the program}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: Official URL, placeholder: "https://..."}
+    validations: {required: true}
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary category
+      options: [Grant, Accelerator or incubator, Competition, Fellowship, Hackathon, Internship, Open-source program, Research, Scholarship, Student-founder program, Travel or conference grant, Community program]
+    validations: {required: true}
+  - type: textarea
+    id: summary
+    attributes: {label: Why it is useful, description: Summarize what it offers and who it is for.}
+    validations: {required: true}
+  - type: textarea
+    id: eligibility
+    attributes: {label: Eligibility and geography, description: Include student level, location restrictions, fields, and other important rules.}
+    validations: {required: true}
+  - type: textarea
+    id: dates
+    attributes: {label: Application dates, description: Include announced opening/deadline dates or say rolling/unknown. Do not estimate.}
+    validations: {required: true}
+  - type: textarea
+    id: benefits
+    attributes: {label: Funding, prizes, costs, or equity, description: Include material financial terms or say unknown/not applicable.}
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched the repository and open issues for an existing submission.
+          required: true
+        - label: I have not used a referral or affiliate link.
+          required: true
+

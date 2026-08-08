@@ -1,0 +1,50 @@
+categories:
+  - accelerator-incubator
+  - competition
+  - fellowship
+  - grant
+  - hackathon
+  - internship
+  - open-source
+  - research
+  - scholarship
+  - student-founder
+  - travel-conference
+  - community-program
+
+student_levels:
+  - secondary-school
+  - undergraduate
+  - postgraduate
+  - doctoral
+  - recent-graduate
+  - any-student
+
+delivery_modes:
+  - remote
+  - in-person
+  - hybrid
+  - varies
+  - not-applicable
+
+geography_scopes:
+  - global
+  - country
+  - region
+  - city
+  - institution
+  - unspecified
+
+lifecycle_values:
+  - active
+  - paused
+  - discontinued
+  - archived
+  - unknown
+
+schedule_types:
+  - fixed
+  - recurring
+  - rolling
+  - unknown
+

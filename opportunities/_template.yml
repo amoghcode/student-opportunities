@@ -1,0 +1,51 @@
+# Copy this file and remove all instructional comments.
+# Files beginning with an underscore are ignored by validation.
+id: example-opportunity
+name: Example Opportunity
+organization: Example Organization
+categories:
+  - fellowship
+official_url: https://example.org/opportunity
+application_url: null
+description: >-
+  A concise, neutral summary explaining what the opportunity provides and why
+  it is relevant to students.
+
+geographies:
+  - scope: global
+    values: []
+delivery: remote
+student_levels:
+  - undergraduate
+fields:
+  - engineering
+eligibility_summary: Current undergraduate students may apply.
+tags:
+  - mentorship
+
+benefits:
+  summary: Mentorship and project support
+  amount: null
+  currency: null
+  equity_required: false
+
+schedule:
+  type: recurring
+  timezone: UTC
+  cycles:
+    - label: "2026"
+      opens_on: "2026-01-15"
+      deadline: "2026-03-15"
+  typical_open_months:
+    - 1
+  typical_close_months:
+    - 3
+
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://example.org/opportunity
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: null
+

@@ -1,0 +1,21 @@
+name: Report a broken link
+description: Flag an official or application URL that no longer works
+title: "[Broken link]: "
+labels: ["broken-link", "needs-triage"]
+body:
+  - type: input
+    id: record
+    attributes: {label: Opportunity name or record link}
+    validations: {required: true}
+  - type: input
+    id: broken_url
+    attributes: {label: Broken URL, placeholder: "https://..."}
+    validations: {required: true}
+  - type: input
+    id: replacement
+    attributes: {label: Replacement official URL, description: Leave blank if you could not find one.}
+  - type: textarea
+    id: behavior
+    attributes: {label: What happened?, description: For example 404, redirect to homepage, or domain expired.}
+    validations: {required: true}
+

@@ -1,0 +1,26 @@
+name: Suggest a correction
+description: Suggest a correction not covered by another form
+title: "[Correction]: "
+labels: ["correction", "needs-triage"]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Opportunity name or record link
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Suggested correction
+      description: Explain what should change and why.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source
+      placeholder: "https://..."
+    validations:
+      required: true
+

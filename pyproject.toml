@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-opportunities-data"
+version = "0.1.0"
+description = "Validation tools for a community-maintained student opportunities dataset"
+requires-python = ">=3.11"
+dependencies = [
+  "jsonschema>=4.23,<5",
+  "PyYAML>=6.0.2,<7",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools]
+py-modules = []
+

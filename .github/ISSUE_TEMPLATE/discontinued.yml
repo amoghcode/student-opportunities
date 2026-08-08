@@ -1,0 +1,23 @@
+name: Report a discontinued opportunity
+description: Provide evidence that a program has ended or been paused
+title: "[Lifecycle]: "
+labels: ["lifecycle", "needs-verification"]
+body:
+  - type: input
+    id: record
+    attributes: {label: Opportunity name or record link}
+    validations: {required: true}
+  - type: dropdown
+    id: proposed_state
+    attributes:
+      label: Proposed state
+      options: [Paused, Discontinued, Unknown]
+    validations: {required: true}
+  - type: input
+    id: source
+    attributes: {label: Supporting source, placeholder: "https://..."}
+  - type: textarea
+    id: evidence
+    attributes: {label: Evidence, description: Explain why this is more than an application period simply being closed.}
+    validations: {required: true}
+
