@@ -1,0 +1,41 @@
+id: chevening-scholarships
+name: Chevening Scholarships
+organization: UK Government
+categories: [scholarship]
+official_url: https://www.chevening.org/scholarships/
+application_url: https://www.chevening.org/apply/
+description: >-
+  Fully funded scholarships for emerging leaders from eligible countries and
+  territories to pursue a one-year master's degree in the United Kingdom.
+geographies:
+  - scope: region
+    values: [Eligible Chevening countries and territories]
+delivery: in-person
+student_levels: [postgraduate, recent-graduate]
+fields: []
+eligibility_summary: >-
+  Applicants must be citizens of an eligible country or territory and meet the
+  current degree, work-experience, return-home, course, and application rules.
+tags: [fully-funded, leadership, masters, united-kingdom]
+benefits:
+  summary: Fully funded one-year UK master's degree plus the Chevening professional and alumni network.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/London
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://www.chevening.org/scholarships/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+  - url: https://www.chevening.org/apply/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: The official site showed applications as open when verified; applicants must use their country page for the exact current deadline and award details.
+

@@ -1,0 +1,42 @@
+id: knight-hennessy-scholars
+name: Knight-Hennessy Scholars
+organization: Stanford University
+categories: [scholarship, fellowship]
+official_url: https://knight-hennessy.stanford.edu/admission
+application_url: https://apply.knight-hennessy.stanford.edu/apply/
+description: >-
+  A graduate scholarship and multidisciplinary leadership programme for
+  students admitted to eligible Stanford graduate degree programmes.
+geographies:
+  - scope: global
+    values: []
+delivery: in-person
+student_levels: [undergraduate, postgraduate, recent-graduate]
+fields: []
+eligibility_summary: >-
+  Applicants must satisfy Knight-Hennessy eligibility and separately apply to
+  an eligible Stanford graduate programme by its applicable deadline.
+tags: [fully-funded, graduate, leadership, stanford]
+benefits:
+  summary: Graduate-study funding and participation in the Knight-Hennessy leadership programme.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: America/Los_Angeles
+  cycles:
+    - label: "2027 cohort"
+      opens_on: null
+      deadline: "2026-10-06"
+      deadline_time: "13:00"
+  typical_open_months: []
+  typical_close_months: [10]
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://knight-hennessy.stanford.edu/admission
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: The Stanford graduate-degree application is separate and may have a different deadline.
+

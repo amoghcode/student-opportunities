@@ -1,0 +1,40 @@
+id: fulbright-nehru-masters-fellowships
+name: Fulbright-Nehru Master's Fellowships
+organization: United States-India Educational Foundation
+categories: [scholarship]
+official_url: https://www.usief.org.in/fulbright-fellowships/fulbright-nehru-masters-fellowships/
+application_url: https://www.usief.org.in/fulbright-fellowships/fulbright-nehru-masters-fellowships/
+description: >-
+  Fellowships for eligible Indian citizens to pursue selected master's degree
+  programmes in the United States, administered by the United States-India
+  Educational Foundation.
+geographies:
+  - scope: country
+    values: [India]
+delivery: in-person
+student_levels: [postgraduate, recent-graduate]
+fields: []
+eligibility_summary: >-
+  Applicants must meet the current Indian citizenship, academic, professional
+  experience, leadership, field-of-study, and residency requirements published
+  by USIEF.
+tags: [india, masters, study-abroad, united-states]
+benefits:
+  summary: Fellowship support for eligible master's study in the United States under the current award terms.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Asia/Kolkata
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://www.usief.org.in/fulbright-fellowships/fulbright-nehru-masters-fellowships/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: Eligible fields and exact dates change by cycle and must be checked on the current USIEF fellowship page.
+

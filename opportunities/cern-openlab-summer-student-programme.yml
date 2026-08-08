@@ -1,0 +1,40 @@
+id: cern-openlab-summer-student-programme
+name: CERN openlab Summer Student Programme
+organization: CERN openlab
+categories: [research, internship]
+official_url: https://openlab.cern/education/
+application_url: null
+description: >-
+  An annual summer programme in which selected university students work on
+  advanced computing projects at CERN and participate in a programme of
+  technical lectures and workshops.
+geographies:
+  - scope: global
+    values: []
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [computer science, mathematics, engineering, physics]
+eligibility_summary: >-
+  The active call defines nationality, enrolment, completed-study, language,
+  and availability requirements. Applicants should confirm all requirements in
+  the CERN vacancy when applications open.
+tags: [computing, international, paid, switzerland]
+benefits:
+  summary: Computing research project, lectures, subsistence support, and travel arrangements under the active call.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/Zurich
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://openlab.cern/education/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: Applications are posted through CERN careers; no next-cycle deadline was confirmed.
+

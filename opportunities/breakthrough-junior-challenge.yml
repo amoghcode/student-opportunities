@@ -1,0 +1,43 @@
+id: breakthrough-junior-challenge
+name: Breakthrough Junior Challenge
+organization: Breakthrough Prize Foundation
+categories: [competition]
+official_url: https://breakthroughjuniorchallenge.org/
+application_url: https://breakthroughjuniorchallenge.org/
+description: >-
+  A global science communication competition in which students create a short
+  video explaining a challenging concept in physics, mathematics, or the life
+  sciences.
+geographies:
+  - scope: global
+    values: []
+delivery: remote
+student_levels: [secondary-school]
+fields: [life sciences, mathematics, physics, science communication]
+eligibility_summary: >-
+  Entrants must meet the current age, country, original-video, language,
+  submission, and peer-review rules published by the challenge.
+tags: [global, high-school, science-communication]
+benefits:
+  summary: Scholarship and related prizes under the current challenge rules, plus international science-communication recognition.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: America/Los_Angeles
+  cycles:
+    - label: "2026 challenge"
+      opens_on: null
+      deadline: "2026-09-15"
+      deadline_time: "23:59"
+  typical_open_months: []
+  typical_close_months: [9]
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://breakthroughjuniorchallenge.org/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: The official site displayed the 2026 challenge as open when verified.
+

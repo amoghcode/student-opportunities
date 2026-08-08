@@ -1,0 +1,38 @@
+id: conrad-challenge
+name: Conrad Challenge
+organization: Conrad Foundation
+categories: [competition, student-founder]
+official_url: https://conrad.spacecenter.org/the-challenge/
+application_url: https://conrad.spacecenter.org/the-challenge/
+description: >-
+  An annual innovation and entrepreneurship competition in which secondary-
+  school student teams develop solutions to global challenges with guidance
+  from coaches and subject-matter experts.
+geographies:
+  - scope: global
+    values: []
+delivery: varies
+student_levels: [secondary-school]
+fields: [entrepreneurship, science, technology]
+eligibility_summary: >-
+  Applicants must meet the active season's age, student status, team, coach,
+  category, and submission requirements.
+tags: [global, high-school, innovation]
+benefits:
+  summary: Innovation education, expert guidance, competition recognition, and awards that vary by season and category.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://conrad.spacecenter.org/the-challenge/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: The official site was intermittently unavailable to automated verification; exact dates and any participation costs require manual confirmation.

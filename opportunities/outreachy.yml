@@ -1,0 +1,46 @@
+id: outreachy
+name: Outreachy Internships
+organization: Outreachy
+categories: [internship, open-source]
+official_url: https://www.outreachy.org/docs/applicant/
+application_url: https://www.outreachy.org/apply/project-selection/
+description: >-
+  A paid, remote internship programme that supports people who face
+  underrepresentation, systemic bias, or discrimination in technology as they
+  make contributions to free and open-source projects with experienced mentors.
+geographies:
+  - scope: global
+    values: []
+delivery: remote
+student_levels: [any-student, recent-graduate]
+fields: [open-source software, design, documentation, data science]
+eligibility_summary: >-
+  Applicants must be at least 18 and meet detailed availability, employment,
+  prior-internship, student-calendar, and local work-authorization rules.
+  Students must apply to the cohort compatible with their academic calendar.
+tags: [inclusion, mentorship, paid, remote]
+benefits:
+  summary: Three-month remote internship, mentorship, and a USD 7,000 stipend.
+  amount: 7000
+  currency: USD
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: UTC
+  cycles:
+    - label: "May 2026 initial application"
+      opens_on: "2026-02-06"
+      deadline: "2026-02-13"
+      deadline_time: "16:00"
+  typical_open_months: [2, 8]
+  typical_close_months: [2, 9]
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://www.outreachy.org/docs/applicant/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: >-
+  The May 2026 application period has ended. Outreachy normally runs two
+  cohorts, but future exact dates must be confirmed when published.
+

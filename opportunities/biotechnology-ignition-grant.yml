@@ -1,0 +1,42 @@
+id: biotechnology-ignition-grant
+name: Biotechnology Ignition Grant
+organization: Biotechnology Industry Research Assistance Council
+categories: [grant, student-founder]
+official_url: https://birac.nic.in/big.php
+application_url: https://birac.nic.in/cfp.php
+description: >-
+  An Indian biotechnology grant supporting proof-of-concept development and
+  early validation by eligible individual innovators, entrepreneurs, startups,
+  and other entities through approved BIG partners.
+geographies:
+  - scope: country
+    values: [India]
+delivery: varies
+student_levels: [any-student, postgraduate, doctoral, recent-graduate]
+fields: [biotechnology, life sciences]
+eligibility_summary: >-
+  Citizenship, entity type, project stage, intellectual-property, incubation,
+  and partner requirements are defined in the active call and BIG guidelines.
+tags: [biotechnology, india, proof-of-concept]
+benefits:
+  summary: Grant-in-aid and partner support for biotechnology proof of concept and early validation under the active call.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Asia/Kolkata
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://birac.nic.in/big.php
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+  - url: https://birac.nic.in/cfp.php
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: This is not exclusively a student programme; students belong only when they independently satisfy the active call's applicant rules.
+

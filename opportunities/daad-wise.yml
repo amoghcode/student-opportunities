@@ -1,0 +1,39 @@
+id: daad-wise
+name: Working Internships in Science and Engineering (WISE)
+organization: German Academic Exchange Service
+categories: [internship, research, scholarship]
+official_url: https://www.daad.in/en/find-funding/scholarship-database/
+application_url: null
+description: >-
+  A DAAD scholarship supporting eligible Indian undergraduate students who
+  undertake a research internship at a publicly funded German higher education
+  institution or research institute.
+geographies:
+  - scope: country
+    values: [India]
+delivery: in-person
+student_levels: [undergraduate]
+fields: [science, engineering]
+eligibility_summary: >-
+  Applicants must meet the current call's citizenship, institution, degree,
+  academic-stage, grade, and host-invitation requirements. Consult the DAAD
+  scholarship database because requirements and dates may change by call.
+tags: [germany, india, research, study-abroad]
+benefits:
+  summary: Scholarship support for a research stay in Germany; current payment and travel terms are defined in the active call.
+  amount: null
+  currency: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://www.daad.in/en/find-funding/scholarship-database/
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: The next application deadline was not confidently available on the reviewed official page.
