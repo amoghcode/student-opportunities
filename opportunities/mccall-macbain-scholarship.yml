@@ -3,12 +3,22 @@ name: McCall MacBain Scholarship
 organization: McGill University
 categories: [scholarship, fellowship]
 official_url: https://www.mcgill.ca/gradapplicants/funding/external/mccall-macbain-scholarship
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: Applicants should check the scholarship and McGill program pages for any applicable fees.
 description: >-
   A graduate scholarship and leadership programme supporting eligible master's
   and professional degree study at McGill University in Canada.
-geographies:
+eligibility_geographies:
   - scope: global
+    basis: unrestricted
     values: []
+locations:
+  - scope: country
+    values: [Canada]
 delivery: in-person
 student_levels: [postgraduate, recent-graduate]
 fields: [all-fields]
@@ -20,6 +30,9 @@ benefits:
   summary: Full tuition and fees, a living stipend, summer funding options, mentorship, and leadership development.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring

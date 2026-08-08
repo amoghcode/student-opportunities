@@ -1,16 +1,26 @@
 id: microsoft-imagine-cup
 name: Microsoft Imagine Cup
 organization: Microsoft
-categories: [competition, student-founder-program]
+categories: [competition, student-founder]
 official_url: https://imaginecup.microsoft.com/en-us
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee information was confirmed on the reviewed official FAQ.
 description: >-
   A global technology startup competition in which student teams develop and
   pitch solutions using Microsoft cloud and artificial-intelligence technologies.
-geographies:
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
   - scope: global
     values: []
 delivery: hybrid
-student_levels: [secondary, undergraduate, postgraduate]
+student_levels: [secondary-school, undergraduate, postgraduate]
 fields: [technology, artificial-intelligence, entrepreneurship]
 eligibility_summary: >-
   The 2026 rules required participants to be at least 18 and enrolled at an
@@ -20,6 +30,9 @@ benefits:
   summary: Competition awards, cloud resources, mentoring, and startup exposure vary by annual edition and track.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring

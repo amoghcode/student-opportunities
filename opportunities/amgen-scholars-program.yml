@@ -3,11 +3,21 @@ name: Amgen Scholars Program
 organization: Amgen Foundation
 categories: [internship, research]
 official_url: https://amgenscholars.com/
+application_method: host-specific
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: Application fees, if any, must be checked with the selected host institution.
 description: >-
   A network of intensive undergraduate summer research programmes in biomedical
   and biotechnology fields, hosted by participating universities around the world.
-geographies:
+eligibility_geographies:
   - scope: global
+    basis: unspecified
+    values: []
+locations:
+  - scope: unspecified
     values: []
 delivery: in-person
 student_levels: [undergraduate]
@@ -20,6 +30,9 @@ benefits:
   summary: Research placement and financial support vary by participating host university.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring

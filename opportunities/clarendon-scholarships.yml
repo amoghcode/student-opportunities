@@ -3,12 +3,22 @@ name: Clarendon Scholarships
 organization: University of Oxford
 categories: [scholarship]
 official_url: https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon
+application_method: automatic-consideration
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: There is no separate scholarship application, but the Oxford graduate course application may have a fee.
 description: >-
   Oxford's graduate scholarship scheme, offering full funding to academically
   outstanding master's and DPhil applicants across all eligible disciplines.
-geographies:
+eligibility_geographies:
   - scope: global
+    basis: unrestricted
     values: []
+locations:
+  - scope: country
+    values: [United Kingdom]
 delivery: in-person
 student_levels: [postgraduate]
 fields: [all-fields]
@@ -21,6 +31,9 @@ benefits:
   summary: Course fees and a grant for living expenses for the applicable period of fee liability.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring

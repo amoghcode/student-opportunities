@@ -3,12 +3,22 @@ name: EPFL Life Sciences Summer Research Program
 organization: EPFL School of Life Sciences
 categories: [internship, research]
 official_url: https://www.epfl.ch/schools/sv/education/summer-research-program/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee information was confirmed on the reviewed official page.
 description: >-
   An eight-week summer programme in which visiting students join an EPFL life
   sciences laboratory and participate in research, seminars, and workshops.
-geographies:
+eligibility_geographies:
   - scope: global
+    basis: unrestricted
     values: []
+locations:
+  - scope: country
+    values: [Switzerland]
 delivery: in-person
 student_levels: [undergraduate, postgraduate]
 fields: [life-sciences, biology, biotechnology]
@@ -20,6 +30,9 @@ benefits:
   summary: Stipend and programme support are provided according to the current call.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring

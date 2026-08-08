@@ -1,16 +1,26 @@
 id: technovation-girls
 name: Technovation Girls
 organization: Technovation
-categories: [competition, accelerator]
+categories: [competition, accelerator-incubator]
 official_url: https://www.technovation.org/
+application_method: direct
+application_fee:
+  required: false
+  amount: null
+  currency: null
+  notes: Technovation states that its curriculum and programs are free to use.
 description: >-
   A free global technology and entrepreneurship programme in which young teams
   build an app or AI-based solution addressing a community problem.
-geographies:
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
   - scope: global
     values: []
 delivery: hybrid
-student_levels: [school-student]
+student_levels: [secondary-school]
 fields: [technology, artificial-intelligence, entrepreneurship]
 eligibility_summary: >-
   The competition serves eligible young people aged 8-18 worldwide. Technovation
@@ -20,6 +30,9 @@ benefits:
   summary: Free curriculum, mentoring, global recognition, and competition awards that vary by season.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring

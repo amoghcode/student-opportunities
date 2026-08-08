@@ -7,13 +7,21 @@ categories:
   - fellowship
 official_url: https://example.org/opportunity
 application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: Confirm any application fee on the official application page.
 description: >-
   A concise, neutral summary explaining what the opportunity provides and why
   it is relevant to students.
 
-geographies:
+eligibility_geographies:
   - scope: global
+    basis: unrestricted
     values: []
+locations: []
 delivery: remote
 student_levels:
   - undergraduate
@@ -27,6 +35,9 @@ benefits:
   summary: Mentorship and project support
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 
 schedule:
@@ -48,4 +59,3 @@ verification_sources:
     accessed_on: "2026-08-08"
     kind: official-program-page
 notes: null
-

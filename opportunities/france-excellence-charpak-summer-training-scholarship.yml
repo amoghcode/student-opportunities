@@ -3,12 +3,28 @@ name: France Excellence Charpak Summer Training Scholarship
 organization: French Institute in India and Campus France India
 categories: [scholarship, internship, research]
 official_url: https://www.inde.campusfrance.org/france-excellence-charpak-summer-training-scholarship
+application_method: host-required
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: The reviewed page confirms visa and Campus France procedure fee waivers, but does not separately establish an application fee.
 description: >-
   A scholarship supporting Indian bachelor's and master's students undertaking
   a short research project or internship at a French laboratory or institution.
-geographies:
-  - scope: nationality
+eligibility_geographies:
+  - scope: country
+    basis: nationality
     values: [India]
+  - scope: country
+    basis: residence
+    values: [India]
+  - scope: country
+    basis: study-location
+    values: [India]
+locations:
+  - scope: country
+    values: [France]
 delivery: in-person
 student_levels: [undergraduate, postgraduate]
 fields: [all-fields]
@@ -21,6 +37,9 @@ benefits:
   summary: EUR 700 per month for up to two months, plus student visa and applicable Campus France fee waivers; travel and accommodation are not covered.
   amount: 700
   currency: EUR
+  amount_type: stipend
+  amount_frequency: monthly
+  amount_qualifier: exact
   equity_required: false
 schedule:
   type: recurring

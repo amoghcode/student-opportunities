@@ -3,12 +3,22 @@ name: EPFL Excellence in Engineering
 organization: EPFL School of Engineering
 categories: [internship, research]
 official_url: https://eee.epfl.ch/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee information was confirmed on the reviewed official page.
 description: >-
   A summer research programme that places selected students in laboratories at
   EPFL's School of Engineering for a supervised scientific project.
-geographies:
+eligibility_geographies:
   - scope: global
+    basis: unrestricted
     values: []
+locations:
+  - scope: country
+    values: [Switzerland]
 delivery: in-person
 student_levels: [undergraduate, postgraduate]
 fields: [engineering, science, technology]
@@ -20,6 +30,9 @@ benefits:
   summary: Living allowance and eligible travel support are described in each programme call.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring

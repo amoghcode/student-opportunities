@@ -4,9 +4,13 @@
   "title": "Student opportunity",
   "type": "object",
   "additionalProperties": false,
+  "anyOf": [
+    {"required": ["eligibility_geographies"]},
+    {"required": ["geographies"]}
+  ],
   "required": [
     "id", "name", "organization", "categories", "official_url",
-    "description", "geographies", "delivery", "student_levels", "fields",
+    "description", "delivery", "student_levels", "fields",
     "tags", "benefits", "schedule", "lifecycle", "last_verified",
     "verification_sources"
   ],
@@ -17,16 +21,44 @@
     "categories": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
     "official_url": {"$ref": "#/$defs/httpUrl"},
     "application_url": {"oneOf": [{"$ref": "#/$defs/httpUrl"}, {"type": "null"}]},
+    "application_method": {"type": "string"},
+    "application_fee": {
+      "type": "object", "additionalProperties": false,
+      "required": ["required", "amount", "currency", "notes"],
+      "properties": {
+        "required": {"type": ["boolean", "null"]},
+        "amount": {"type": ["number", "null"], "minimum": 0},
+        "currency": {"type": ["string", "null"], "pattern": "^[A-Z]{3}$"},
+        "notes": {"type": ["string", "null"], "maxLength": 500}
+      }
+    },
     "description": {"type": "string", "minLength": 30, "maxLength": 1200},
     "geographies": {
+      "deprecated": true,
       "type": "array", "minItems": 1,
       "items": {
         "type": "object", "additionalProperties": false, "required": ["scope", "values"],
         "properties": {
           "scope": {"type": "string"},
+          "basis": {"type": "string"},
           "values": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 100}}
         }
       }
+    },
+    "eligibility_geographies": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["scope", "basis", "values"],
+        "properties": {
+          "scope": {"type": "string"},
+          "basis": {"type": "string"},
+          "values": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 100}}
+        }
+      }
+    },
+    "locations": {
+      "type": "array", "uniqueItems": true,
+      "items": {"$ref": "#/$defs/geography"}
     },
     "delivery": {"type": "string"},
     "student_levels": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
@@ -39,6 +71,9 @@
         "summary": {"type": ["string", "null"], "maxLength": 500},
         "amount": {"type": ["number", "null"], "minimum": 0},
         "currency": {"type": ["string", "null"], "pattern": "^[A-Z]{3}$"},
+        "amount_type": {"type": ["string", "null"]},
+        "amount_frequency": {"type": ["string", "null"]},
+        "amount_qualifier": {"type": ["string", "null"]},
         "equity_required": {"type": ["boolean", "null"]}
       }
     },
@@ -72,6 +107,13 @@
   "$defs": {
     "date": {"type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
     "httpUrl": {"type": "string", "format": "uri", "pattern": "^https?://", "maxLength": 2000},
+    "geography": {
+      "type": "object", "additionalProperties": false, "required": ["scope", "values"],
+      "properties": {
+        "scope": {"type": "string"},
+        "values": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 100}}
+      }
+    },
     "cycle": {
       "type": "object", "additionalProperties": false, "required": ["label", "opens_on", "deadline"],
       "properties": {
@@ -83,4 +125,3 @@
     }
   }
 }
-

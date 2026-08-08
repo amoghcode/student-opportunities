@@ -3,14 +3,24 @@ name: NASA International Space Apps Challenge
 organization: NASA Earth Science Division
 categories: [hackathon, competition]
 official_url: https://www.spaceappschallenge.org/
+application_method: decentralized
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: Participants should confirm any local requirements with their selected event organizer.
 description: >-
   An annual global hackathon where participants use NASA and partner data to
   develop solutions to challenges related to Earth and space science.
-geographies:
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
   - scope: global
     values: []
 delivery: hybrid
-student_levels: [school-student, undergraduate, postgraduate, recent-graduate]
+student_levels: [secondary-school, undergraduate, postgraduate, recent-graduate]
 fields: [space, earth-science, technology, design]
 eligibility_summary: >-
   Participation is global and generally open across ages and backgrounds through
@@ -20,6 +30,9 @@ benefits:
   summary: Collaboration, judging, global recognition, and awards; it is not presented as a conventional cash-prize programme.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring
