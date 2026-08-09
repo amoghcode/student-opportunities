@@ -1,0 +1,65 @@
+id: erasmus-mundus-joint-masters
+name: Erasmus Mundus Joint Masters
+organization: European Commission
+categories:
+  - scholarship
+official_url: https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters
+application_url: https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en
+description: >-
+  International master's programmes jointly designed and delivered by higher
+  education institutions in multiple countries. Students apply directly to a
+  programme consortium, and some programmes offer full scholarships to their
+  best-ranked applicants.
+
+geographies:
+  - scope: global
+    values: []
+delivery: varies
+student_levels:
+  - undergraduate
+  - postgraduate
+  - recent-graduate
+fields: []
+eligibility_summary: >-
+  Applicants must hold a bachelor's degree or be in the final year of bachelor
+  studies and graduate before the master's programme starts. A formally
+  recognized equivalent level of learning may also qualify. Each consortium
+  sets its own programme-specific requirements.
+tags:
+  - international
+  - masters
+  - mobility
+  - study-abroad
+
+benefits:
+  summary: >-
+    Participating masters may offer full scholarships covering participation
+    costs and contributing to travel, visa, and living expenses. Availability
+    and terms vary by programme.
+  amount: null
+  currency: null
+  equity_required: false
+
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months:
+    - 10
+  typical_close_months:
+    - 1
+
+lifecycle: active
+last_verified: "2026-08-08"
+verification_sources:
+  - url: https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+  - url: https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en
+    accessed_on: "2026-08-08"
+    kind: official-program-page
+notes: >-
+  There is no single central student deadline. Most applications are submitted
+  between October and January, but applicants must confirm dates, scholarship
+  availability, and eligibility on the chosen master's website.
+
