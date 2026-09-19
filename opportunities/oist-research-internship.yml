@@ -4,13 +4,23 @@ organization: Okinawa Institute of Science and Technology
 categories: [internship, research]
 official_url: https://www.oist.jp/admissions
 application_url: https://admissions.oist.jp/apply-research-internship
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
 description: >-
   A research internship at OIST in Japan that gives eligible students and
   recent graduates experience in a research unit aligned with their academic
   interests.
-geographies:
+eligibility_geographies:
   - scope: global
+    basis: unrestricted
     values: []
+locations:
+  - scope: country
+    values: [Japan]
 delivery: in-person
 student_levels: [undergraduate, postgraduate, recent-graduate]
 fields: [science, engineering]
@@ -23,21 +33,26 @@ benefits:
   summary: Research placement with allowance, travel, and accommodation support under the current programme rules.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring
   timezone: Asia/Tokyo
-  cycles: []
+  cycles:
+    - label: 2027 research internship intake
+      opens_on: null
+      deadline: "2026-10-15"
   typical_open_months: []
-  typical_close_months: []
+  typical_close_months: [4, 10]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://www.oist.jp/admissions
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
   - url: https://admissions.oist.jp/apply-research-internship
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: The next intake deadline was not confidently established from the reviewed public pages.
-
+notes: The current official admissions page lists October 15, 2026 as the research internship application deadline.

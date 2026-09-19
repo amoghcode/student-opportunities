@@ -4,13 +4,23 @@ organization: Schwarzman Scholars
 categories: [scholarship, fellowship]
 official_url: https://www.schwarzmanscholars.org/admissions/
 application_url: https://www.schwarzmanscholars.org/admissions/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
 description: >-
   A one-year master's and leadership programme at Tsinghua University in
   Beijing for applicants from around the world who demonstrate academic
   ability, leadership, and an interest in global affairs.
-geographies:
+eligibility_geographies:
   - scope: global
+    basis: unrestricted
     values: []
+locations:
+  - scope: country
+    values: [China]
 delivery: in-person
 student_levels: [undergraduate, postgraduate, recent-graduate]
 fields: []
@@ -23,6 +33,9 @@ benefits:
   summary: Fully funded one-year master's programme and leadership curriculum at Tsinghua University.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring
@@ -31,10 +44,9 @@ schedule:
   typical_open_months: []
   typical_close_months: []
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://www.schwarzmanscholars.org/admissions/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: Applicants must confirm the deadline and route applicable to their passport and cohort.
-
+notes: The 2027-2028 class is closed. Applications for the 2028-2029 class are expected from March 2027 for Chinese-passport applicants and April 2027 for US and global applicants.

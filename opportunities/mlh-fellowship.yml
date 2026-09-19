@@ -4,11 +4,21 @@ organization: Major League Hacking
 categories: [fellowship, open-source]
 official_url: https://fellowship.mlh.com/
 application_url: https://fellowship.mlh.com/programs/software-engineering
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
 description: >-
   A remote programme where early-career technologists build practical software
   experience through project work, mentorship, and a peer community. Available
   tracks, schedules, and financial support can vary between batches.
-geographies:
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
   - scope: global
     values: []
 delivery: remote
@@ -22,6 +32,9 @@ benefits:
   summary: Project experience, technical mentorship, and a global peer community; stipends vary by track and location.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring
@@ -30,12 +43,12 @@ schedule:
   typical_open_months: []
   typical_close_months: []
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://fellowship.mlh.com/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
   - url: https://fellowship.mlh.com/programs/software-engineering
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
 notes: Current tracks and the next application deadline were not clearly announced on the reviewed public pages.

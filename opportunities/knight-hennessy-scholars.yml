@@ -4,12 +4,22 @@ organization: Stanford University
 categories: [scholarship, fellowship]
 official_url: https://knight-hennessy.stanford.edu/admission
 application_url: https://apply.knight-hennessy.stanford.edu/apply/
+application_method: direct
+application_fee:
+  required: false
+  amount: null
+  currency: null
+  notes: The Knight-Hennessy application is free, but the separate Stanford graduate programme may charge an application fee.
 description: >-
   A graduate scholarship and multidisciplinary leadership programme for
   students admitted to eligible Stanford graduate degree programmes.
-geographies:
+eligibility_geographies:
   - scope: global
+    basis: unrestricted
     values: []
+locations:
+  - scope: country
+    values: [United States]
 delivery: in-person
 student_levels: [undergraduate, postgraduate, recent-graduate]
 fields: []
@@ -21,22 +31,24 @@ benefits:
   summary: Graduate-study funding and participation in the Knight-Hennessy leadership programme.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring
   timezone: America/Los_Angeles
   cycles:
     - label: "2027 cohort"
-      opens_on: null
+      opens_on: "2026-06-01"
       deadline: "2026-10-06"
       deadline_time: "13:00"
-  typical_open_months: []
+  typical_open_months: [6]
   typical_close_months: [10]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://knight-hennessy.stanford.edu/admission
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
 notes: The Stanford graduate-degree application is separate and may have a different deadline.
-

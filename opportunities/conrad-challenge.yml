@@ -4,11 +4,21 @@ organization: Conrad Foundation
 categories: [competition, student-founder]
 official_url: https://conrad.spacecenter.org/the-challenge/
 application_url: https://conrad.spacecenter.org/the-challenge/
+application_method: direct
+application_fee:
+  required: true
+  amount: null
+  currency: null
+  notes: Phase 1 is free; teams advancing to Phase 2 pay USD 499 per team, with financial aid available.
 description: >-
   An annual innovation and entrepreneurship competition in which secondary-
   school student teams develop solutions to global challenges with guidance
   from coaches and subject-matter experts.
-geographies:
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
   - scope: global
     values: []
 delivery: varies
@@ -22,17 +32,27 @@ benefits:
   summary: Innovation education, expert guidance, competition recognition, and awards that vary by season and category.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring
-  timezone: null
-  cycles: []
-  typical_open_months: []
-  typical_close_months: []
+  timezone: America/Chicago
+  cycles:
+    - label: 2026-2027 Phase 1 registration and activation
+      opens_on: "2026-08-27"
+      deadline: "2026-10-29"
+    - label: 2026-2027 Phase 2 innovation submission
+      opens_on: "2026-10-29"
+      deadline: "2027-01-07"
+      deadline_time: "23:59"
+  typical_open_months: [8]
+  typical_close_months: [10, 1]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://conrad.spacecenter.org/the-challenge/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: The official site was intermittently unavailable to automated verification; exact dates and any participation costs require manual confirmation.
+notes: Teams contain two to five students aged 13-18 and an adult coach; the Innovation Summit is scheduled for April 21-24, 2027.

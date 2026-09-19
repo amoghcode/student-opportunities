@@ -4,12 +4,22 @@ organization: UK Government
 categories: [scholarship]
 official_url: https://www.chevening.org/scholarships/
 application_url: https://www.chevening.org/apply/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
 description: >-
   Fully funded scholarships for emerging leaders from eligible countries and
   territories to pursue a one-year master's degree in the United Kingdom.
-geographies:
+eligibility_geographies:
   - scope: region
+    basis: nationality
     values: [Eligible Chevening countries and territories]
+locations:
+  - scope: country
+    values: [United Kingdom]
 delivery: in-person
 student_levels: [postgraduate, recent-graduate]
 fields: []
@@ -21,21 +31,27 @@ benefits:
   summary: Fully funded one-year UK master's degree plus the Chevening professional and alumni network.
   amount: null
   currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
   equity_required: false
 schedule:
   type: recurring
   timezone: Europe/London
-  cycles: []
-  typical_open_months: []
-  typical_close_months: []
+  cycles:
+    - label: 2027-2028 scholarships
+      opens_on: "2026-08-04"
+      deadline: "2026-10-06"
+      deadline_time: "11:00"
+  typical_open_months: [8]
+  typical_close_months: [10]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://www.chevening.org/scholarships/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
   - url: https://www.chevening.org/apply/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: The official site showed applications as open when verified; applicants must use their country page for the exact current deadline and award details.
-
+notes: Applications are open for 2027-2028 study; applicants must use the award page for their country or territory and confirm local eligibility.
