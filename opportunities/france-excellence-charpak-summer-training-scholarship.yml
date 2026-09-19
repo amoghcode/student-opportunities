@@ -11,7 +11,8 @@ application_fee:
   notes: The reviewed page confirms visa and Campus France procedure fee waivers, but does not separately establish an application fee.
 description: >-
   A scholarship supporting Indian bachelor's and master's students undertaking
-  a short research project or internship at a French laboratory or institution.
+  a one- to two-month research project or internship between May and August at
+  a French laboratory or institution.
 eligibility_geographies:
   - scope: country
     basis: nationality
@@ -48,9 +49,9 @@ schedule:
   typical_open_months: []
   typical_close_months: []
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://www.inde.campusfrance.org/france-excellence-charpak-summer-training-scholarship
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
 notes: The 2026 call is closed; the next cycle had not been announced when verified.

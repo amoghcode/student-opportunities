@@ -41,9 +41,12 @@ schedule:
   typical_open_months: []
   typical_close_months: []
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://imaginecup.microsoft.com/en-us/support/faq
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: The 2026 competition is complete; dates and eligibility for the next edition are not yet confidently known.
+  - url: https://imaginecup.microsoft.com/en-us/category/34
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: The 2027 competition has been announced and registration is available, but a current public submission deadline was not confirmed during verification.

@@ -23,8 +23,9 @@ delivery: in-person
 student_levels: [undergraduate]
 fields: [biomedical-science, biotechnology, life-sciences]
 eligibility_summary: >-
-  Eligibility and international access vary by host institution. Indian students
-  can apply to participating sites whose current rules accept worldwide applicants.
+  Eligibility is regional and host-specific. Applicants must use a participating
+  university whose rules cover their study region and personal circumstances;
+  admission to one Amgen region does not imply eligibility for every host.
 tags: [international, funded, summer, biomedical, research]
 benefits:
   summary: Research placement and financial support vary by participating host university.
@@ -41,9 +42,9 @@ schedule:
   typical_open_months: []
   typical_close_months: [2]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://amgenscholars.com/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: Applicants must check the selected host university's eligibility, dates, and benefits; not every regional site accepts every nationality.
+notes: Applications are available in Australia and are expected to become available for other regions on November 1, 2026; host deadlines and eligibility differ.

@@ -5,10 +5,10 @@ categories: [competition, student-founder]
 official_url: https://blueoceancompetition.org/
 application_method: direct
 application_fee:
-  required: null
+  required: false
   amount: null
   currency: null
-  notes: No application fee information was confirmed on the reviewed official page.
+  notes: The official registration page states that the competition is free to enter.
 description: >-
   A free virtual entrepreneurship competition where high-school students around
   the world develop a business concept and submit a five-minute video pitch.
@@ -35,13 +35,19 @@ benefits:
 schedule:
   type: recurring
   timezone: null
-  cycles: []
+  cycles:
+    - label: 2027 competition
+      opens_on: null
+      deadline: "2027-02-21"
   typical_open_months: []
-  typical_close_months: []
+  typical_close_months: [2]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://blueoceancompetition.org/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: The official site is accepting registrations for the 2027 edition; a submission deadline was not recorded without a confirmed current rules page.
+  - url: https://blueoceancompetition.org/register/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: The official site is accepting registrations for the 2027 edition; winners are scheduled to be announced on May 13, 2027.

@@ -5,10 +5,10 @@ categories: [hackathon, competition]
 official_url: https://www.spaceappschallenge.org/
 application_method: decentralized
 application_fee:
-  required: null
+  required: false
   amount: null
   currency: null
-  notes: Participants should confirm any local requirements with their selected event organizer.
+  notes: NASA states that participation in the annual challenge is free of charge.
 description: >-
   An annual global hackathon where participants use NASA and partner data to
   develop solutions to challenges related to Earth and space science.
@@ -37,13 +37,19 @@ benefits:
 schedule:
   type: recurring
   timezone: null
-  cycles: []
+  cycles:
+    - label: 2026 NASA Space Apps Challenge registration
+      opens_on: null
+      deadline: "2026-11-15"
   typical_open_months: []
-  typical_close_months: []
+  typical_close_months: [11]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://www.spaceappschallenge.org/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: The annual programme is active, but a confirmed 2026 event and registration window were not recorded during verification.
+  - url: https://www.spaceappschallenge.org/legal/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Registration is open through the end of the November 14-15, 2026 hackathon; participants can select a local event or the worldwide virtual event.

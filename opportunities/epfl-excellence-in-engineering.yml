@@ -23,11 +23,12 @@ delivery: in-person
 student_levels: [undergraduate, postgraduate]
 fields: [engineering, science, technology]
 eligibility_summary: >-
-  Intended for high-achieving bachelor's and master's students worldwide in
-  engineering, science, and technology disciplines, subject to the current call.
+  Open to bachelor's and master's students worldwide in engineering, science,
+  and technology who have completed at least two bachelor years and remain
+  enrolled throughout the internship. PhD students are not eligible.
 tags: [international, switzerland, funded, summer, research]
 benefits:
-  summary: Living allowance and eligible travel support are described in each programme call.
+  summary: Monthly allowance of CHF 1,800 or CHF 2,500 depending on the EPFL location, plus eligible travel reimbursement after approval.
   amount: null
   currency: null
   amount_type: null
@@ -37,13 +38,25 @@ benefits:
 schedule:
   type: recurring
   timezone: Europe/Zurich
-  cycles: []
-  typical_open_months: []
-  typical_close_months: []
+  cycles:
+    - label: Summer 2027 applications
+      opens_on: null
+      deadline: "2026-11-01"
+  typical_open_months: [10]
+  typical_close_months: [11]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://eee.epfl.ch/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: The 2026 application is closed; dates for the next cycle were not confidently published when verified.
+  - url: https://eee.epfl.ch/apply/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://eee.epfl.ch/selection-criteria/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://eee.epfl.ch/faq/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: The Summer 2027 portal will open sometime in October 2026; EPFL has not published the exact opening day.

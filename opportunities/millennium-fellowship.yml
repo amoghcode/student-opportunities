@@ -43,9 +43,9 @@ schedule:
   typical_open_months: []
   typical_close_months: [5]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://www.millenniumfellows.org/apply
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
 notes: Applications for the Class of 2026 are closed; the official page offers a waitlist for the Class of 2027.

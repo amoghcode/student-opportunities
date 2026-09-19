@@ -23,8 +23,10 @@ delivery: in-person
 student_levels: [undergraduate, postgraduate]
 fields: [life-sciences, biology, biotechnology]
 eligibility_summary: >-
-  Open to eligible students worldwide who are enrolled in a bachelor's degree
-  or the first year of a master's degree in life sciences or a related subject.
+  Open worldwide to students who have completed at least two bachelor years and
+  are enrolled in a bachelor's degree or first-year master's degree in life
+  sciences or a related subject. Applicants should have a GPA near 3.75/4 or be
+  in the top five percent and must remain enrolled; PhD students are not eligible.
 tags: [international, switzerland, funded, summer, research]
 benefits:
   summary: Stipend and programme support are provided according to the current call.
@@ -37,13 +39,17 @@ benefits:
 schedule:
   type: recurring
   timezone: Europe/Zurich
-  cycles: []
-  typical_open_months: []
+  cycles:
+    - label: Summer 2027 applications
+      opens_on: null
+      deadline: "2026-11-15"
+      deadline_time: "23:59"
+  typical_open_months: [10]
   typical_close_months: [11]
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-19"
 verification_sources:
   - url: https://www.epfl.ch/schools/sv/education/summer-research-program/
-    accessed_on: "2026-08-08"
+    accessed_on: "2026-09-19"
     kind: official-program-page
-notes: The 2026 round is closed. The programme has historically used a November 15 deadline; confirm the next call before applying.
+notes: The official pages describe the next opening as late September or mid-October 2026, so no exact opening date is recorded.
