@@ -1,0 +1,55 @@
+id: nasa-international-space-apps-challenge
+name: NASA International Space Apps Challenge
+organization: NASA Earth Science Division
+categories: [hackathon, competition]
+official_url: https://www.spaceappschallenge.org/
+application_method: decentralized
+application_fee:
+  required: false
+  amount: null
+  currency: null
+  notes: NASA states that participation in the annual challenge is free of charge.
+description: >-
+  An annual global hackathon where participants use NASA and partner data to
+  develop solutions to challenges related to Earth and space science.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: global
+    values: []
+delivery: hybrid
+student_levels: [secondary-school, undergraduate, postgraduate, recent-graduate]
+fields: [space, earth-science, technology, design]
+eligibility_summary: >-
+  Participation is global and generally open across ages and backgrounds through
+  local and virtual events; minors must follow the applicable event requirements.
+tags: [international, nasa, hackathon, space, open-data]
+benefits:
+  summary: Collaboration, judging, global recognition, and awards; it is not presented as a conventional cash-prize programme.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles:
+    - label: 2026 NASA Space Apps Challenge registration
+      opens_on: null
+      deadline: "2026-11-15"
+  typical_open_months: []
+  typical_close_months: [11]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://www.spaceappschallenge.org/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://www.spaceappschallenge.org/legal/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Registration is open through the end of the November 14-15, 2026 hackathon; participants can select a local event or the worldwide virtual event.

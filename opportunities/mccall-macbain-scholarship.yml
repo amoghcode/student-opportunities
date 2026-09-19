@@ -1,0 +1,55 @@
+id: mccall-macbain-scholarship
+name: McCall MacBain Scholarship
+organization: McGill University
+categories: [scholarship, fellowship]
+official_url: https://www.mcgill.ca/gradapplicants/funding/external/mccall-macbain-scholarship
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: Applicants should check the scholarship and McGill program pages for any applicable fees.
+description: >-
+  A graduate scholarship and leadership programme supporting eligible master's
+  and professional degree study at McGill University in Canada.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: country
+    values: [Canada]
+delivery: in-person
+student_levels: [postgraduate, recent-graduate]
+fields: [all-fields]
+eligibility_summary: >-
+  Open to eligible applicants worldwide seeking admission to a compatible
+  McGill master's or professional programme, with separate deadline groups.
+tags: [international, canada, fully-funded, leadership, graduate]
+benefits:
+  summary: Full tuition and fees, a living stipend, summer funding options, mentorship, and leadership development.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: America/Toronto
+  cycles:
+    - label: 2027 cohort - international applicants
+      opens_on: "2026-06-01"
+      deadline: "2026-08-19"
+    - label: 2027 cohort - Canadian or US university applicants and Canadians abroad
+      opens_on: "2026-06-01"
+      deadline: "2026-09-23"
+  typical_open_months: [6]
+  typical_close_months: [8, 9]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://www.mcgill.ca/gradapplicants/funding/external/mccall-macbain-scholarship
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Deadline groups depend on where the applicant studies and, for Canadians studying abroad, citizenship; applicants should confirm which group applies.

@@ -1,0 +1,62 @@
+id: technovation-girls
+name: Technovation Girls
+organization: Technovation
+categories: [competition, accelerator-incubator]
+official_url: https://www.technovation.org/
+application_method: direct
+application_fee:
+  required: false
+  amount: null
+  currency: null
+  notes: Technovation states that its curriculum and programs are free to use.
+description: >-
+  A free global technology and entrepreneurship programme in which young teams
+  build an app or AI-based solution addressing a community problem.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: global
+    values: []
+delivery: hybrid
+student_levels: [secondary-school]
+fields: [technology, artificial-intelligence, entrepreneurship]
+eligibility_summary: >-
+  The competition serves eligible young people aged 8-18 worldwide. Technovation
+  publishes specific gender-identity eligibility guidance for competition submissions.
+tags: [international, free, girls, technology, entrepreneurship]
+benefits:
+  summary: Free curriculum, mentoring, global recognition, and competition awards that vary by season.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: America/Los_Angeles
+  cycles:
+    - label: 2026-2027 registration
+      opens_on: "2026-10-12"
+      deadline: "2027-03-11"
+    - label: 2026-2027 project submission
+      opens_on: "2026-10-12"
+      deadline: "2027-05-05"
+      deadline_time: "17:00"
+  typical_open_months: [10]
+  typical_close_months: [3, 5]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://www.technovation.org/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://www.technovation.org/educators/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://technovationchallenge.org/es/competition/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Registration dates and the May 5 submission deadline are published for the 2026-2027 season; the submission time is 5 PM Pacific Daylight Time.

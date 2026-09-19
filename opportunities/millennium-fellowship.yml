@@ -1,0 +1,51 @@
+id: millennium-fellowship
+name: Millennium Fellowship
+organization: Millennium Campus Network and United Nations Academic Impact
+categories: [fellowship, community-program]
+official_url: https://www.millenniumfellows.org/
+application_url: https://www.millenniumfellows.org/apply
+application_method: direct
+application_fee:
+  required: false
+  amount: null
+  currency: null
+  notes: The official application page states that the program is free of cost.
+description: >-
+  A free semester-long leadership development programme for undergraduate
+  students advancing social-impact projects and the Sustainable Development Goals.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: global
+    values: []
+delivery: hybrid
+student_levels: [undergraduate]
+fields: [all-fields]
+eligibility_summary: >-
+  Applicants must be at least 18, enrolled as undergraduates throughout the
+  programme, and committed to social-impact work. A participating campus needs
+  a cohort of at least eight selected fellows.
+tags: [international, free, leadership, social-impact, undergraduate]
+benefits:
+  summary: Free leadership training, a global peer network, project support, and recognition on successful completion.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: [5]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://www.millenniumfellows.org/apply
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Applications for the Class of 2026 are closed; the official page offers a waitlist for the Class of 2027.

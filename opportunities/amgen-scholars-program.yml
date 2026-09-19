@@ -1,0 +1,50 @@
+id: amgen-scholars-program
+name: Amgen Scholars Program
+organization: Amgen Foundation
+categories: [internship, research]
+official_url: https://amgenscholars.com/
+application_method: host-specific
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: Application fees, if any, must be checked with the selected host institution.
+description: >-
+  A network of intensive undergraduate summer research programmes in biomedical
+  and biotechnology fields, hosted by participating universities around the world.
+eligibility_geographies:
+  - scope: global
+    basis: unspecified
+    values: []
+locations:
+  - scope: unspecified
+    values: []
+delivery: in-person
+student_levels: [undergraduate]
+fields: [biomedical-science, biotechnology, life-sciences]
+eligibility_summary: >-
+  Eligibility is regional and host-specific. Applicants must use a participating
+  university whose rules cover their study region and personal circumstances;
+  admission to one Amgen region does not imply eligibility for every host.
+tags: [international, funded, summer, biomedical, research]
+benefits:
+  summary: Research placement and financial support vary by participating host university.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: [2]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://amgenscholars.com/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Applications are available in Australia and are expected to become available for other regions on November 1, 2026; host deadlines and eligibility differ.

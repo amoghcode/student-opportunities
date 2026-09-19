@@ -1,0 +1,62 @@
+id: epfl-excellence-in-engineering
+name: EPFL Excellence in Engineering
+organization: EPFL School of Engineering
+categories: [internship, research]
+official_url: https://eee.epfl.ch/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee information was confirmed on the reviewed official page.
+description: >-
+  A summer research programme that places selected students in laboratories at
+  EPFL's School of Engineering for a supervised scientific project.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: country
+    values: [Switzerland]
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [engineering, science, technology]
+eligibility_summary: >-
+  Open to bachelor's and master's students worldwide in engineering, science,
+  and technology who have completed at least two bachelor years and remain
+  enrolled throughout the internship. PhD students are not eligible.
+tags: [international, switzerland, funded, summer, research]
+benefits:
+  summary: Monthly allowance of CHF 1,800 or CHF 2,500 depending on the EPFL location, plus eligible travel reimbursement after approval.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/Zurich
+  cycles:
+    - label: Summer 2027 applications
+      opens_on: null
+      deadline: "2026-11-01"
+  typical_open_months: [10]
+  typical_close_months: [11]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://eee.epfl.ch/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://eee.epfl.ch/apply/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://eee.epfl.ch/selection-criteria/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://eee.epfl.ch/faq/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: The Summer 2027 portal will open sometime in October 2026; EPFL has not published the exact opening day.
