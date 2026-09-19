@@ -50,6 +50,13 @@ Do not use search-result snippets, AI-generated text, affiliate pages, or anothe
 - Use only values from `data/taxonomies.yml` for controlled fields.
 - Use the canonical official URL without tracking or referral parameters.
 - State fees, equity requirements, and important restrictions plainly.
+- Distinguish applicant eligibility geography from the location where the
+  program takes place.
+- Use `required: null` for an application fee that could not be confirmed;
+  absence of fee information is not proof that applying is free.
+- When recording one numeric benefit amount, specify whether it is a stipend,
+  prize, grant, or reimbursement and whether it is total, monthly, or another
+  frequency.
 - Keep descriptions factual, concise, and free of marketing language.
 - Never add personal phone numbers, private email addresses, or sensitive applicant data.
 
@@ -62,4 +69,3 @@ A reviewer may request clarification or changes. Once checks pass and the eviden
 ## Licensing
 
 By submitting a contribution, you agree that code contributions may be distributed under MIT and dataset/documentation contributions under CC BY 4.0.
-

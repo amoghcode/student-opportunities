@@ -35,6 +35,49 @@ geography_scopes:
   - institution
   - unspecified
 
+eligibility_bases:
+  - unrestricted
+  - nationality
+  - residence
+  - study-location
+  - institution-affiliation
+  - other
+  - unspecified
+
+application_methods:
+  - direct
+  - automatic-consideration
+  - nomination
+  - through-institution
+  - host-required
+  - host-specific
+  - decentralized
+  - unknown
+
+benefit_amount_types:
+  - stipend
+  - prize
+  - grant
+  - reimbursement
+  - fee-waiver
+  - other
+
+benefit_amount_frequencies:
+  - one-time
+  - total
+  - monthly
+  - weekly
+  - daily
+  - annual
+  - variable
+
+benefit_amount_qualifiers:
+  - exact
+  - approximate
+  - up-to
+  - starting-at
+  - varies
+
 lifecycle_values:
   - active
   - paused
@@ -47,4 +90,3 @@ schedule_types:
   - recurring
   - rolling
   - unknown
-

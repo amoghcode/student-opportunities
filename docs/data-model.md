@@ -9,11 +9,26 @@ The canonical dataset is the collection of YAML files in `opportunities/`. There
 - `categories` — One or more controlled values from `data/taxonomies.yml`.
 - `official_url` — Durable official program page. Remove tracking parameters.
 - `application_url` — Optional direct application URL.
+- `application_method` — How a candidate enters the process: `direct`,
+  `automatic-consideration`, `nomination`, `through-institution`,
+  `host-required`, `host-specific`, `decentralized`, or `unknown`.
+- `application_fee` — Whether applying requires a fee, its exact amount when
+  known, and a short clarification. Use `required: null` rather than assuming
+  that an unmentioned fee does not exist.
 - `description` — Original neutral summary, not copied marketing text.
 
 ## Audience and location
 
-- `geographies` — Eligibility geography, not merely event location. `global` uses an empty `values` list; `country`, `region`, `city`, and `institution` name their values.
+- `eligibility_geographies` — Applicant eligibility geography, not program location.
+  `basis` records whether the restriction concerns nationality, residence,
+  study location, institution affiliation, or is unrestricted. `global` uses
+  an empty `values` list; `country`, `region`, `city`, and `institution` name
+  their values.
+- `geographies` — Deprecated compatibility name used by early records. New and
+  updated records should use `eligibility_geographies`; do not include both.
+- `locations` — Where the program, placement, or event takes place. Keep this
+  empty for fully remote opportunities. A globally distributed program may use
+  `scope: global` with an empty `values` list.
 - `delivery` — How participation occurs.
 - `student_levels` — Controlled values. Use `any-student` only when the source genuinely accepts all students.
 - `fields` — Human-readable study/industry fields. Keep terminology broad and consistent.
@@ -22,7 +37,17 @@ The canonical dataset is the collection of YAML files in `opportunities/`. There
 
 ## Benefits
 
-`benefits.summary` describes funding, prizes, mentorship, travel, or other support. Use `amount` and three-letter ISO `currency` only for one unambiguous amount. Otherwise explain ranges in the summary. `equity_required` may be `null` when it is not known or not relevant.
+`benefits.summary` describes funding, prizes, mentorship, travel, or other
+support. Use `amount` and three-letter ISO `currency` only for one unambiguous
+amount. When an amount is present, describe it with:
+
+- `amount_type` — such as `stipend`, `prize`, `grant`, or `reimbursement`
+- `amount_frequency` — such as `total`, `monthly`, `daily`, or `one-time`
+- `amount_qualifier` — `exact`, `approximate`, `up-to`, `starting-at`, or `varies`
+
+Otherwise put ranges and multiple benefit components in `summary` and leave
+the structured amount fields null. `equity_required` may be `null` when it is
+not known or not relevant.
 
 ## Schedule
 
@@ -62,4 +87,3 @@ Future consumers should apply this order:
 7. Otherwise: dates unconfirmed
 
 Verification freshness is a separate warning. A calculated “open now” entry can also be marked “needs verification.”
-

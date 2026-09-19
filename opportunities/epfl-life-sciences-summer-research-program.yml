@@ -1,0 +1,55 @@
+id: epfl-life-sciences-summer-research-program
+name: EPFL Life Sciences Summer Research Program
+organization: EPFL School of Life Sciences
+categories: [internship, research]
+official_url: https://www.epfl.ch/schools/sv/education/summer-research-program/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee information was confirmed on the reviewed official page.
+description: >-
+  An eight-week summer programme in which visiting students join an EPFL life
+  sciences laboratory and participate in research, seminars, and workshops.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: country
+    values: [Switzerland]
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [life-sciences, biology, biotechnology]
+eligibility_summary: >-
+  Open worldwide to students who have completed at least two bachelor years and
+  are enrolled in a bachelor's degree or first-year master's degree in life
+  sciences or a related subject. Applicants should have a GPA near 3.75/4 or be
+  in the top five percent and must remain enrolled; PhD students are not eligible.
+tags: [international, switzerland, funded, summer, research]
+benefits:
+  summary: Stipend and programme support are provided according to the current call.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/Zurich
+  cycles:
+    - label: Summer 2027 applications
+      opens_on: null
+      deadline: "2026-11-15"
+      deadline_time: "23:59"
+  typical_open_months: [10]
+  typical_close_months: [11]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://www.epfl.ch/schools/sv/education/summer-research-program/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: The official pages describe the next opening as late September or mid-October 2026, so no exact opening date is recorded.

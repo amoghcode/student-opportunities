@@ -9,7 +9,7 @@ import re
 import sys
 from dataclasses import dataclass
 from datetime import date
-from difflib import SequenceMatcher
+from difflib import SequenceMatcher, get_close_matches
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
@@ -52,6 +52,32 @@ def load_yaml(path: Path) -> dict:
     return value
 
 
+def unsupported_value(field: str, value: object, allowed: list[str]) -> str:
+    suggestion = get_close_matches(value, allowed, n=1, cutoff=0.55) if isinstance(value, str) else []
+    suffix = f"; did you mean {suggestion[0]!r}?" if suggestion else ""
+    return f"{field} has unsupported value: {value!r}{suffix}"
+
+
+def geography_errors(items: list[dict], field: str, taxonomies: dict, *, eligibility: bool) -> list[str]:
+    errors: list[str] = []
+    allowed_scopes = taxonomies["geography_scopes"]
+    allowed_bases = taxonomies["eligibility_bases"]
+    for index, geography in enumerate(items):
+        scope = geography.get("scope")
+        values = geography.get("values", [])
+        if scope not in allowed_scopes:
+            errors.append(unsupported_value(f"{field}[{index}].scope", scope, allowed_scopes))
+        if eligibility:
+            basis = geography.get("basis")
+            if basis is not None and basis not in allowed_bases:
+                errors.append(unsupported_value(f"{field}[{index}].basis", basis, allowed_bases))
+        if scope == "global" and values:
+            errors.append(f"{field}[{index}] global scope must have an empty values list")
+        if scope not in {"global", "unspecified"} and not values:
+            errors.append(f"{field}[{index}] {scope!r} scope requires at least one value")
+    return errors
+
+
 def custom_errors(record: Record, taxonomies: dict) -> list[str]:
     data = record.data
     errors: list[str] = []
@@ -60,39 +86,74 @@ def custom_errors(record: Record, taxonomies: dict) -> list[str]:
         "student_levels": "student_levels",
     }
     for field, taxonomy in controlled.items():
-        invalid = sorted(set(data.get(field, [])) - set(taxonomies[taxonomy]))
-        if invalid:
-            errors.append(f"{field} contains unsupported values: {', '.join(invalid)}")
+        for value in sorted(set(data.get(field, [])) - set(taxonomies[taxonomy])):
+            errors.append(unsupported_value(field, value, taxonomies[taxonomy]))
 
     if data.get("delivery") not in taxonomies["delivery_modes"]:
-        errors.append(f"delivery has unsupported value: {data.get('delivery')!r}")
+        errors.append(unsupported_value("delivery", data.get("delivery"), taxonomies["delivery_modes"]))
     if data.get("lifecycle") not in taxonomies["lifecycle_values"]:
-        errors.append(f"lifecycle has unsupported value: {data.get('lifecycle')!r}")
+        errors.append(unsupported_value("lifecycle", data.get("lifecycle"), taxonomies["lifecycle_values"]))
+
+    application_method = data.get("application_method")
+    if application_method is not None and application_method not in taxonomies["application_methods"]:
+        errors.append(unsupported_value("application_method", application_method, taxonomies["application_methods"]))
+
+    application_fee = data.get("application_fee")
+    if application_fee:
+        fee_required = application_fee.get("required")
+        fee_amount = application_fee.get("amount")
+        fee_currency = application_fee.get("currency")
+        if (fee_amount is None) != (fee_currency is None):
+            errors.append("application_fee amount and currency must either both be set or both be null")
+        if fee_required is False and (fee_amount is not None or fee_currency is not None):
+            errors.append("application_fee amount and currency must be null when required is false")
+        if fee_required is None and fee_amount is not None:
+            errors.append("application_fee amount must be null when whether a fee is required is unknown")
 
     schedule = data.get("schedule", {})
     if schedule.get("type") not in taxonomies["schedule_types"]:
-        errors.append(f"schedule.type has unsupported value: {schedule.get('type')!r}")
+        errors.append(unsupported_value("schedule.type", schedule.get("type"), taxonomies["schedule_types"]))
     if schedule.get("type") == "fixed" and not schedule.get("cycles"):
         errors.append("a fixed schedule requires at least one cycle")
     if schedule.get("type") == "rolling" and any(c.get("deadline") for c in schedule.get("cycles", [])):
         errors.append("a rolling schedule should not contain a deadline; use fixed or recurring")
 
-    allowed_scopes = set(taxonomies["geography_scopes"])
-    for index, geography in enumerate(data.get("geographies", [])):
-        scope = geography.get("scope")
-        values = geography.get("values", [])
-        if scope not in allowed_scopes:
-            errors.append(f"geographies[{index}].scope has unsupported value: {scope!r}")
-        if scope == "global" and values:
-            errors.append(f"geographies[{index}] global scope must have an empty values list")
-        if scope not in {"global", "unspecified"} and not values:
-            errors.append(f"geographies[{index}] {scope!r} scope requires at least one value")
+    if data.get("eligibility_geographies") is not None and data.get("geographies") is not None:
+        errors.append("use eligibility_geographies; do not include the deprecated geographies field as well")
+    eligibility_geographies = data.get("eligibility_geographies", data.get("geographies", []))
+    errors.extend(
+        geography_errors(eligibility_geographies, "eligibility_geographies", taxonomies, eligibility=True)
+    )
+    errors.extend(geography_errors(data.get("locations", []), "locations", taxonomies, eligibility=False))
+
+    benefits = data.get("benefits", {})
+    amount = benefits.get("amount")
+    currency = benefits.get("currency")
+    amount_fields = {
+        "amount_type": "benefit_amount_types",
+        "amount_frequency": "benefit_amount_frequencies",
+        "amount_qualifier": "benefit_amount_qualifiers",
+    }
+    if (amount is None) != (currency is None):
+        errors.append("benefits amount and currency must either both be set or both be null")
+    metadata_present = any(benefits.get(field) is not None for field in amount_fields)
+    if metadata_present and amount is None:
+        errors.append("benefits amount metadata requires a numeric amount and currency")
+    if metadata_present:
+        for field, taxonomy in amount_fields.items():
+            value = benefits.get(field)
+            if value is None:
+                errors.append(f"benefits.{field} is required when amount metadata is provided")
+            elif value not in taxonomies[taxonomy]:
+                errors.append(unsupported_value(f"benefits.{field}", value, taxonomies[taxonomy]))
 
     for index, cycle in enumerate(schedule.get("cycles", [])):
         opens = cycle.get("opens_on")
         deadline = cycle.get("deadline")
         if opens and deadline and date.fromisoformat(opens) > date.fromisoformat(deadline):
             errors.append(f"schedule.cycles[{index}] opens_on is after deadline")
+        if cycle.get("deadline_time") and not schedule.get("timezone"):
+            errors.append(f"schedule.cycles[{index}] deadline_time requires schedule.timezone")
 
     last_verified = data.get("last_verified")
     sources = data.get("verification_sources", [])
@@ -100,6 +161,12 @@ def custom_errors(record: Record, taxonomies: dict) -> list[str]:
         latest_source = max(source["accessed_on"] for source in sources if source.get("accessed_on"))
         if last_verified > latest_source:
             errors.append("last_verified is later than every verification source accessed_on date")
+    today = date.today().isoformat()
+    if last_verified and last_verified > today:
+        errors.append("last_verified cannot be in the future")
+    for index, source in enumerate(sources):
+        if source.get("accessed_on") and source["accessed_on"] > today:
+            errors.append(f"verification_sources[{index}].accessed_on cannot be in the future")
 
     if data.get("lifecycle") == "discontinued" and not data.get("lifecycle_note"):
         errors.append("discontinued records require lifecycle_note")
@@ -144,6 +211,10 @@ def validate(root: Path = ROOT) -> tuple[list[str], list[str]]:
             errors.append(f"{path.relative_to(root)}: {exc}")
             continue
         records.append(record)
+        if path.stem != record.data.get("id"):
+            errors.append(
+                f"{path.relative_to(root)}: filename must match id {record.data.get('id')!r}"
+            )
         for error in sorted(validator.iter_errors(record.data), key=lambda e: list(e.path)):
             location = ".".join(str(part) for part in error.path) or "<root>"
             errors.append(f"{path.relative_to(root)}:{location}: {error.message}")

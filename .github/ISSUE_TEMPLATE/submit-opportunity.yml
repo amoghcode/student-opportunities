@@ -33,12 +33,19 @@ body:
     attributes: {label: Eligibility and geography, description: Include student level, location restrictions, fields, and other important rules.}
     validations: {required: true}
   - type: textarea
+    id: program_location
+    attributes: {label: Program location or delivery, description: Say where it takes place and whether it is remote, in-person, hybrid, or varies.}
+    validations: {required: true}
+  - type: textarea
     id: dates
     attributes: {label: Application dates, description: Include announced opening/deadline dates or say rolling/unknown. Do not estimate.}
     validations: {required: true}
   - type: textarea
     id: benefits
     attributes: {label: Funding, prizes, costs, or equity, description: Include material financial terms or say unknown/not applicable.}
+  - type: textarea
+    id: application
+    attributes: {label: Application method and fee, description: Say whether students apply directly, need nomination or a host, and whether an application fee is required.}
   - type: checkboxes
     id: confirmation
     attributes:
@@ -48,4 +55,3 @@ body:
           required: true
         - label: I have not used a referral or affiliate link.
           required: true
-

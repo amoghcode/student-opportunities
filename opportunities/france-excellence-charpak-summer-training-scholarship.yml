@@ -1,0 +1,57 @@
+id: france-excellence-charpak-summer-training-scholarship
+name: France Excellence Charpak Summer Training Scholarship
+organization: French Institute in India and Campus France India
+categories: [scholarship, internship, research]
+official_url: https://www.inde.campusfrance.org/france-excellence-charpak-summer-training-scholarship
+application_method: host-required
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: The reviewed page confirms visa and Campus France procedure fee waivers, but does not separately establish an application fee.
+description: >-
+  A scholarship supporting Indian bachelor's and master's students undertaking
+  a one- to two-month research project or internship between May and August at
+  a French laboratory or institution.
+eligibility_geographies:
+  - scope: country
+    basis: nationality
+    values: [India]
+  - scope: country
+    basis: residence
+    values: [India]
+  - scope: country
+    basis: study-location
+    values: [India]
+locations:
+  - scope: country
+    values: [France]
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [all-fields]
+eligibility_summary: >-
+  Applicants must be Indian nationals residing in India, no more than 30 years
+  old, enrolled at an Indian institution, and hold an invitation from a French
+  laboratory or institution for a one- to two-month placement.
+tags: [india, france, funded, summer, research]
+benefits:
+  summary: EUR 700 per month for up to two months, plus student visa and applicable Campus France fee waivers; travel and accommodation are not covered.
+  amount: 700
+  currency: EUR
+  amount_type: stipend
+  amount_frequency: monthly
+  amount_qualifier: exact
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Asia/Kolkata
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://www.inde.campusfrance.org/france-excellence-charpak-summer-training-scholarship
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: The 2026 call is closed; the next cycle had not been announced when verified.

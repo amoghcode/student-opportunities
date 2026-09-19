@@ -16,6 +16,7 @@ Related issue: #
 - [ ] Dates are announced dates, not projections from a previous year.
 - [ ] The description is factual, concise, and written in my own words.
 - [ ] I disclosed important fees, funding, equity, geography, and eligibility conditions.
+- [ ] I separated applicant eligibility geography from program location.
+- [ ] Any numeric funding amount includes its type, frequency, and qualifier.
 - [ ] I ran the validator locally, or I will use the CI output to correct errors.
 - [ ] I agree to license this contribution under the repository's stated licenses.
-

@@ -1,0 +1,57 @@
+id: eth-student-summer-research-fellowship
+name: ETH Student Summer Research Fellowship
+organization: ETH Zurich Department of Computer Science
+categories: [fellowship, research]
+official_url: https://inf.ethz.ch/studies/summer-research-fellowship.html
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee information was confirmed on the reviewed official pages.
+description: >-
+  A funded two-month summer research fellowship in computer science at ETH
+  Zurich, pairing visiting students with research groups in the department.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: country
+    values: [Switzerland]
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [computer-science]
+eligibility_summary: >-
+  Open worldwide to bachelor's and master's students in computer science or a
+  closely related field who have completed at least two study years, will
+  graduate in the year after the fellowship or later, and can attend the full
+  July-August programme. Current ETH students are not eligible.
+tags: [international, switzerland, funded, summer, research]
+benefits:
+  summary: CHF 4,000 stipend for the full programme, with travel and visa expenses covered under programme rules.
+  amount: 4000
+  currency: CHF
+  amount_type: stipend
+  amount_frequency: total
+  amount_qualifier: exact
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/Zurich
+  cycles: []
+  typical_open_months: [11]
+  typical_close_months: [12]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://inf.ethz.ch/studies/summer-research-fellowship.html
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://inf.ethz.ch/studies/summer-research-fellowship/faqs.html
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: The 2026 round is closed; the official site says the next application window begins in November 2026.
