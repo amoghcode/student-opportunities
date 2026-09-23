@@ -1,0 +1,53 @@
+id: cern-summer-student-programme
+name: CERN Summer Student Programme
+organization: CERN
+categories: [research, internship]
+official_url: https://careers.cern/programmes/summer-studentship/
+application_url: https://careers.cern/summer
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  A summer programme combining a technical project at CERN with a lecture
+  series for bachelor's and master's students in physics, engineering,
+  computing, mathematics, and related disciplines.
+eligibility_geographies:
+  - scope: region
+    basis: other
+    values: [CERN Member and Associate Member States]
+locations:
+  - scope: country
+    values: [Switzerland]
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [physics, engineering, computer science, mathematics]
+eligibility_summary: >-
+  Applicants must satisfy the current nationality, university-enrolment,
+  completed-study, language, and availability rules. CERN also publishes a
+  separate route for students from non-member states.
+tags: [international, paid, stem, switzerland]
+benefits:
+  summary: Technical project, lecture programme, subsistence allowance, and possible travel support under the current programme rules.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/Zurich
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://careers.cern/programmes/summer-studentship/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: The next cycle's dates were not announced on the reviewed programme page.
+

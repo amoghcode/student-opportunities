@@ -1,0 +1,54 @@
+id: nidhi-prayas
+name: NIDHI-PRAYAS 2.0
+organization: Department of Science and Technology, Government of India
+categories: [grant, student-founder]
+official_url: https://nidhi.dst.gov.in/prayas2-0/
+application_url: null
+application_method: decentralized
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  An Indian prototype-development and incubation programme that supports
+  eligible innovators and startups through approved PRAYAS centres rather than
+  through one continuously open central application.
+eligibility_geographies:
+  - scope: country
+    basis: other
+    values: [India]
+locations:
+  - scope: country
+    values: [India]
+delivery: varies
+student_levels: [any-student, recent-graduate]
+fields: [engineering, hardware, technology]
+eligibility_summary: >-
+  Applicants must meet the active PRAYAS centre's innovator, residency,
+  prototype-stage, company, funding-history, and project rules.
+tags: [hardware, india, incubation, prototype]
+benefits:
+  summary: Prototype funding of up to INR 20 lakh through PRAYAS Centres, or up to INR 40 lakh through Advance PRAYAS Centres, plus facilities and mentoring.
+  amount: 2000000
+  currency: INR
+  amount_type: grant
+  amount_frequency: one-time
+  amount_qualifier: up-to
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Asia/Kolkata
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://nidhi.dst.gov.in/prayas2-0/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://nidhi.dst.gov.in/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Students, researchers, innovators, entrepreneurs, and startups apply through participating centres; there is no single continuously open national application deadline.

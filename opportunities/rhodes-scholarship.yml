@@ -1,0 +1,53 @@
+id: rhodes-scholarship
+name: Rhodes Scholarship
+organization: Rhodes Trust
+categories: [scholarship]
+official_url: https://www.rhodeshouse.ox.ac.uk/scholarships/applications/
+application_url: https://www.rhodeshouse.ox.ac.uk/scholarships/applications/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  A postgraduate scholarship for study at the University of Oxford, selected
+  through geographic constituencies and a Global Scholarship route, with a
+  community and leadership-development component.
+eligibility_geographies:
+  - scope: global
+    basis: other
+    values: []
+locations:
+  - scope: country
+    values: [United Kingdom]
+delivery: in-person
+student_levels: [undergraduate, postgraduate, recent-graduate]
+fields: []
+eligibility_summary: >-
+  Citizenship or residency, age, academic achievement, degree completion, and
+  application deadlines vary by constituency. Applicants must use the Rhodes
+  eligibility checker and constituency information.
+tags: [fully-funded, leadership, oxford, postgraduate]
+benefits:
+  summary: Funding for eligible postgraduate study at Oxford and participation in the Rhodes Scholar community.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://www.rhodeshouse.ox.ac.uk/scholarships/applications/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: There is no single global deadline; use the official constituency route for current dates and rules.
+

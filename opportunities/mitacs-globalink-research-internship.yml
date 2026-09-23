@@ -1,0 +1,54 @@
+id: mitacs-globalink-research-internship
+name: Mitacs Globalink Research Internship
+organization: Mitacs
+categories: [internship, research]
+official_url: https://www.mitacs.ca/our-programs/globalink-research-internship-students/
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  A twelve-week research internship at a Canadian academic institution for
+  eligible international undergraduates and students in combined
+  undergraduate-master's programmes.
+eligibility_geographies:
+  - scope: region
+    basis: other
+    values: [Eligible partner countries and institutions]
+locations:
+  - scope: country
+    values: [Canada]
+delivery: in-person
+student_levels: [undergraduate]
+fields: []
+eligibility_summary: >-
+  For the 2027 cohort applicants must be at least 18, study full time at an
+  eligible institution, meet country-specific academic rules, have sufficient
+  study remaining, and be available for twelve consecutive weeks. Partner
+  countries, institutions, disciplines, and grade requirements vary.
+tags: [canada, international, paid, research]
+benefits:
+  summary: Research placement in Canada with programme support; the precise support package depends on programme and partner arrangements.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://www.mitacs.ca/our-programs/globalink-research-internship-students/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: India or any other country must appear in the current partner and eligible-institution list; past participation does not guarantee current eligibility.
+

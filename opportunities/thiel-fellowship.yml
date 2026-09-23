@@ -1,0 +1,53 @@
+id: thiel-fellowship
+name: Thiel Fellowship
+organization: Thiel Foundation
+categories: [fellowship, student-founder]
+official_url: https://thielfellowship.org/
+application_url: https://thielfellowship.org/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  A fellowship for young people building ambitious companies, research, or
+  nonprofit projects, providing financial support and access to a founder and
+  expert network.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: unspecified
+    values: []
+delivery: varies
+student_levels: [any-student, recent-graduate]
+fields: [entrepreneurship, research, technology]
+eligibility_summary: >-
+  Applicants must meet the programme's current age and project requirements.
+  Fellows are expected to focus on their work rather than remain in a
+  conventional full-time degree programme during the fellowship.
+tags: [entrepreneurship, grant, young-founders]
+benefits:
+  summary: Fellowship grant and access to a network of founders, scientists, and mentors.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: rolling
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://thielfellowship.org/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Applications are accepted on a rolling basis; current grant terms and age rules should be checked before applying.
+

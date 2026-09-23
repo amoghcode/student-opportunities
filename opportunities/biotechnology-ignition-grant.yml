@@ -1,0 +1,54 @@
+id: biotechnology-ignition-grant
+name: Biotechnology Ignition Grant
+organization: Biotechnology Industry Research Assistance Council
+categories: [grant, student-founder]
+official_url: https://birac.nic.in/big.php
+application_url: https://birac.nic.in/cfp.php
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  An Indian biotechnology grant supporting proof-of-concept development and
+  early validation by eligible individual innovators, entrepreneurs, startups,
+  and other entities through approved BIG partners.
+eligibility_geographies:
+  - scope: country
+    basis: other
+    values: [India]
+locations:
+  - scope: country
+    values: [India]
+delivery: varies
+student_levels: [any-student, postgraduate, doctoral, recent-graduate]
+fields: [biotechnology, life sciences]
+eligibility_summary: >-
+  Citizenship, entity type, project stage, intellectual-property, incubation,
+  and partner requirements are defined in the active call and BIG guidelines.
+tags: [biotechnology, india, proof-of-concept]
+benefits:
+  summary: Grant-in-aid of up to INR 50 lakh for an 18-month biotechnology proof-of-concept project, plus support from a BIG partner.
+  amount: 5000000
+  currency: INR
+  amount_type: grant
+  amount_frequency: one-time
+  amount_qualifier: up-to
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Asia/Kolkata
+  cycles: []
+  typical_open_months: [1, 7]
+  typical_close_months: [2, 8]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://birac.nic.in/big.php
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://birac.nic.in/cfp.php
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: This is a founder grant, not a scholarship or research fellowship. Calls are normally announced on January 1 and July 1 and remain open for about 45 days.

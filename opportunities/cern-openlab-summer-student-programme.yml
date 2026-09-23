@@ -1,0 +1,55 @@
+id: cern-openlab-summer-student-programme
+name: CERN openlab Summer Student Programme
+organization: CERN openlab
+categories: [research, internship]
+official_url: https://openlab.cern/education/
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  An annual summer programme in which selected university students work on
+  advanced computing projects at CERN and participate in a programme of
+  technical lectures and workshops.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: country
+    values: [Switzerland]
+delivery: in-person
+student_levels: [undergraduate, postgraduate]
+fields: [computer science, mathematics, engineering, physics]
+eligibility_summary: >-
+  The active call defines nationality, enrolment, completed-study, language,
+  and availability requirements. Applicants should confirm all requirements in
+  the CERN vacancy when applications open.
+tags: [computing, international, paid, switzerland]
+benefits:
+  summary: Computing research project, lectures, subsistence support, and travel arrangements under the active call.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: Europe/Zurich
+  cycles: []
+  typical_open_months: [11]
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://openlab.cern/education/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://openlab.cern/highlights-from-2026-cern-openlab-summer-student-programme/
+    accessed_on: "2026-09-19"
+    kind: official-announcement
+notes: CERN openlab states that applications for the 2027 programme will open in November 2026; the exact opening day and deadline are not yet published.

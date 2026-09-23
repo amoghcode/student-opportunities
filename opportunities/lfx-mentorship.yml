@@ -1,0 +1,58 @@
+id: lfx-mentorship
+name: LFX Mentorship
+organization: Linux Foundation
+categories: [open-source, fellowship]
+official_url: https://docs.linuxfoundation.org/lfx/mentorship
+application_url: https://mentorship.lfx.linuxfoundation.org/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  A remote mentorship platform connecting eligible applicants with mentors on
+  participating open-source projects. Project length, workload, prerequisites,
+  timing, and whether a stipend is offered vary by project.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: global
+    values: []
+delivery: remote
+student_levels: [any-student, recent-graduate]
+fields: [open-source software]
+eligibility_summary: >-
+  Applicants must be at least 18, eligible to work where they participate, apply
+  as individuals, meet project requirements, and have no conflicting obligations.
+  Legal location restrictions and prior-participation rules apply.
+tags: [mentorship, remote, software]
+benefits:
+  summary: Expert mentorship and hands-on open-source work; many but not all projects offer a location-adjusted stipend.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: [1, 4, 7]
+  typical_close_months: [2, 5, 8]
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://docs.linuxfoundation.org/lfx/mentorship/mentorship-program-timelines
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/am-i-eligible
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+  - url: https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide/benefits-for-mentees
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Typical spring, summer, and fall application windows last about four weeks, but exact dates, commitment, prerequisites, and stipends remain project-specific.

@@ -1,0 +1,52 @@
+id: diamond-challenge
+name: Diamond Challenge
+organization: University of Delaware Horn Entrepreneurship
+categories: [competition, student-founder]
+official_url: https://diamondchallenge.org/
+application_url: https://diamondchallenge.org/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  A global entrepreneurship challenge for secondary-school students who build
+  business or social-innovation ventures and receive feedback, education, and
+  opportunities to compete for awards.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: global
+    values: []
+delivery: varies
+student_levels: [secondary-school]
+fields: [entrepreneurship, social impact]
+eligibility_summary: >-
+  Teams must meet the current high-school status, age, team-composition,
+  submission, and regional-round rules for the active season.
+tags: [entrepreneurship, global, high-school]
+benefits:
+  summary: Entrepreneurship education, feedback, global competition, and more than USD 100,000 in awards across prize categories.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://diamondchallenge.org/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: Exact season dates and regional pathways were not recorded without a current rules page.
+

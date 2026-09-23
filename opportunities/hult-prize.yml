@@ -1,0 +1,51 @@
+id: hult-prize
+name: Hult Prize
+organization: Hult Prize Foundation
+categories: [competition, student-founder]
+official_url: https://www.hultprize.org/
+application_url: https://www.hultprize.org/
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee was confirmed on the reviewed official pages.
+description: >-
+  An annual global student startup competition in which teams develop and
+  pitch ventures addressing major social challenges through business.
+eligibility_geographies:
+  - scope: global
+    basis: unrestricted
+    values: []
+locations:
+  - scope: global
+    values: []
+delivery: varies
+student_levels: [undergraduate, postgraduate, doctoral]
+fields: [entrepreneurship, social impact]
+eligibility_summary: >-
+  Entrants must satisfy the current student, team, participation-route, and
+  venture rules. Campus and open-application routes may use different stages
+  and deadlines.
+tags: [entrepreneurship, global, social-impact]
+benefits:
+  summary: Competition, mentorship, venture support, and USD 1 million in funding for the winning team.
+  amount: 1000000
+  currency: USD
+  amount_type: prize
+  amount_frequency: one-time
+  amount_qualifier: exact
+  equity_required: false
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: "2026-09-19"
+verification_sources:
+  - url: https://www.hultprize.org/
+    accessed_on: "2026-09-19"
+    kind: official-program-page
+notes: The official site confirms the annual competition and prize; applicants must verify the active route and deadline.
