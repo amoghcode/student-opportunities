@@ -29,13 +29,16 @@ eligibility_summary: >-
   and deadlines.
 tags: [entrepreneurship, global, social-impact]
 benefits:
-  summary: Competition, mentorship, venture support, and USD 1 million in funding for the winning team.
+  summary: >-
+    Competition, mentorship, venture support, and up to USD 1 million in
+    milestone-based seed investment for the winning team in exchange for a
+    warrant or equity instrument representing 10% fully diluted equity.
   amount: 1000000
   currency: USD
-  amount_type: prize
-  amount_frequency: one-time
-  amount_qualifier: exact
-  equity_required: false
+  amount_type: other
+  amount_frequency: total
+  amount_qualifier: up-to
+  equity_required: true
 schedule:
   type: recurring
   timezone: null
@@ -43,9 +46,15 @@ schedule:
   typical_open_months: []
   typical_close_months: []
 lifecycle: active
-last_verified: "2026-09-19"
+last_verified: "2026-09-23"
 verification_sources:
-  - url: https://www.hultprize.org/
-    accessed_on: "2026-09-19"
+  - url: https://www.hultprize.org/how-it-works
+    accessed_on: "2026-09-23"
     kind: official-program-page
-notes: The official site confirms the annual competition and prize; applicants must verify the active route and deadline.
+  - url: https://www.hultprize.org/terms-conditions
+    accessed_on: "2026-09-23"
+    kind: official-program-page
+notes: >-
+  Funding is not an unrestricted cash prize. The terms allow milestone-based
+  disbursement and withholding or termination of funding; teams should review
+  the current warrant and equity conditions before entering.

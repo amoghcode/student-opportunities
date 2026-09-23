@@ -9,7 +9,7 @@ application_fee:
   required: false
   amount: null
   currency: null
-  notes: The official rules do not require an entry fee.
+  notes: The official rules state that participation is voluntary and does not require a purchase.
 description: >-
   A global science communication competition in which students create a short
   video explaining a challenging concept in physics, mathematics, or the life
@@ -45,9 +45,13 @@ schedule:
   typical_open_months: [5]
   typical_close_months: [9]
 lifecycle: active
-last_verified: "2026-09-19"
+last_verified: "2026-09-23"
 verification_sources:
-  - url: https://breakthroughjuniorchallenge.org/
-    accessed_on: "2026-09-19"
+  - url: https://breakthroughjuniorchallenge.org/rules
+    accessed_on: "2026-09-23"
     kind: official-program-page
-notes: The 2026 submission period ended on September 15; peer review and judging continue after the submission deadline.
+notes: >-
+  The USD 250,000 scholarship is paid directly to an accredited undergraduate
+  institution for approved education expenses and must be used within the
+  period specified by the official rules. The separate teacher and school-lab
+  awards are not paid to the student.

@@ -43,7 +43,7 @@ schedule:
   typical_open_months: []
   typical_close_months: []
 lifecycle: active
-last_verified: "2026-09-19"
+last_verified: "2026-09-23"
 verification_sources:
   - url: https://nidhi.dst.gov.in/prayas2-0/
     accessed_on: "2026-09-19"
@@ -51,4 +51,12 @@ verification_sources:
   - url: https://nidhi.dst.gov.in/
     accessed_on: "2026-09-19"
     kind: official-program-page
-notes: Students, researchers, innovators, entrepreneurs, and startups apply through participating centres; there is no single continuously open national application deadline.
+  - url: https://cdnbbsr.s3waas.gov.in/s312b1e42dc0746f22cf361267de07073f/uploads/2026/05/20260520803129779.pdf
+    accessed_on: "2026-09-23"
+    kind: official-program-page
+notes: >-
+  Applicants use participating PRAYAS or Advance PRAYAS Centres. The March
+  2026 guidelines state that a centre may not require equity or IP ownership
+  as a condition of grant support. Regular centres may approve up to INR 20
+  lakh; eligible deep-tech projects at Advance Centres may receive up to INR
+  40 lakh. Awards and amounts remain subject to committee approval.

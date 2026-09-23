@@ -37,7 +37,7 @@ benefits:
   equity_required: false
 schedule:
   type: recurring
-  timezone: Europe/London
+  timezone: UTC
   cycles:
     - label: 2027-2028 scholarships
       opens_on: "2026-08-04"
@@ -46,12 +46,15 @@ schedule:
   typical_open_months: [8]
   typical_close_months: [10]
 lifecycle: active
-last_verified: "2026-09-19"
+last_verified: "2026-09-23"
 verification_sources:
   - url: https://www.chevening.org/scholarships/
     accessed_on: "2026-09-19"
     kind: official-program-page
   - url: https://www.chevening.org/apply/
-    accessed_on: "2026-09-19"
+    accessed_on: "2026-09-23"
+    kind: official-program-page
+  - url: https://www.chevening.org/scholarships/application-timeline/
+    accessed_on: "2026-09-23"
     kind: official-program-page
 notes: Applications are open for 2027-2028 study; applicants must use the award page for their country or territory and confirm local eligibility.

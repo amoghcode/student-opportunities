@@ -39,16 +39,16 @@ schedule:
   timezone: America/Los_Angeles
   cycles:
     - label: 2026-2027 registration
-      opens_on: "2026-10-12"
+      opens_on: null
       deadline: "2027-03-11"
     - label: 2026-2027 project submission
-      opens_on: "2026-10-12"
+      opens_on: null
       deadline: "2027-05-05"
       deadline_time: "17:00"
   typical_open_months: [10]
   typical_close_months: [3, 5]
 lifecycle: active
-last_verified: "2026-09-19"
+last_verified: "2026-09-23"
 verification_sources:
   - url: https://www.technovation.org/
     accessed_on: "2026-09-19"
@@ -56,7 +56,12 @@ verification_sources:
   - url: https://www.technovation.org/educators/
     accessed_on: "2026-09-19"
     kind: official-program-page
-  - url: https://technovationchallenge.org/es/competition/
-    accessed_on: "2026-09-19"
+  - url: https://technovationchallenge.org/competition/
+    accessed_on: "2026-09-23"
     kind: official-program-page
-notes: Registration dates and the May 5 submission deadline are published for the 2026-2027 season; the submission time is 5 PM Pacific Daylight Time.
+notes: >-
+  The official competition page conflicts internally: its timeline says the
+  season and registration begin October 12, 2026, while its key-dates section
+  says registration opens October 11. The opening date is therefore left
+  unknown. The March 11 registration deadline and May 5, 2027 at 17:00 PDT
+  submission deadline are consistently published.

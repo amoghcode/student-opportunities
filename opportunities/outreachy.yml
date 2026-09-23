@@ -33,9 +33,9 @@ benefits:
   summary: Three-month remote internship, mentorship, and a USD 7,000 stipend.
   amount: 7000
   currency: USD
-  amount_type: null
-  amount_frequency: null
-  amount_qualifier: null
+  amount_type: stipend
+  amount_frequency: total
+  amount_qualifier: exact
   equity_required: false
 schedule:
   type: recurring
@@ -48,7 +48,7 @@ schedule:
   typical_open_months: [2, 8]
   typical_close_months: [2, 9]
 lifecycle: active
-last_verified: "2026-09-19"
+last_verified: "2026-09-23"
 verification_sources:
   - url: https://www.outreachy.org/docs/applicant/
     accessed_on: "2026-09-19"
@@ -56,7 +56,12 @@ verification_sources:
   - url: https://www.outreachy.org/apply/project-selection/
     accessed_on: "2026-09-19"
     kind: official-program-page
+  - url: https://www.outreachy.org/docs/internship/
+    accessed_on: "2026-09-23"
+    kind: official-program-page
 notes: >-
   Initial applications for the December 2026 cohort are closed. Eligible
   applicants who passed that stage have a final project application deadline
-  of November 2, 2026 at 16:00 UTC.
+  of November 2, 2026 at 16:00 UTC. The USD 7,000 is the total stipend for
+  three months and is paid in two instalments subject to successful mentor
+  feedback.
