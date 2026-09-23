@@ -30,7 +30,7 @@ eligibility_summary: >-
   scholarship database because requirements and dates may change by call.
 tags: [germany, india, research, study-abroad]
 benefits:
-  summary: Scholarship support for a research stay in Germany; current payment and travel terms are defined in the active call.
+  summary: Scholarship support has historically been provided for a research stay in Germany; current terms require a current official call.
   amount: null
   currency: null
   amount_type: null
@@ -43,10 +43,15 @@ schedule:
   cycles: []
   typical_open_months: []
   typical_close_months: []
-lifecycle: active
-last_verified: "2026-09-19"
+lifecycle: unknown
+lifecycle_note: A current programme-specific application call could not be found in the official DAAD database during this review.
+last_verified: "2026-09-23"
 verification_sources:
   - url: https://www.daad.in/en/find-funding/scholarship-database/
-    accessed_on: "2026-09-19"
+    accessed_on: "2026-09-23"
     kind: official-program-page
-notes: The next application deadline was not confidently available on the reviewed official page.
+notes: >-
+  Official DAAD material confirms the programme existed, but the generic
+  scholarship database did not provide a current WISE call or deadline during
+  this review. Do not treat this record as open until a programme-specific call
+  is published.

@@ -22,7 +22,7 @@ locations:
   - scope: country
     values: [India]
 delivery: varies
-student_levels: [any-student, postgraduate, doctoral, recent-graduate]
+student_levels: [postgraduate, doctoral, recent-graduate]
 fields: [biotechnology, life sciences]
 eligibility_summary: >-
   Citizenship, entity type, project stage, intellectual-property, incubation,
@@ -43,12 +43,19 @@ schedule:
   typical_open_months: [1, 7]
   typical_close_months: [2, 8]
 lifecycle: active
-last_verified: "2026-09-19"
+last_verified: "2026-09-23"
 verification_sources:
   - url: https://birac.nic.in/big.php
-    accessed_on: "2026-09-19"
+    accessed_on: "2026-09-23"
     kind: official-program-page
   - url: https://birac.nic.in/cfp.php
     accessed_on: "2026-09-19"
     kind: official-program-page
-notes: This is a founder grant, not a scholarship or research fellowship. Calls are normally announced on January 1 and July 1 and remain open for about 45 days.
+  - url: https://www.birac.nic.in/webcontent/1596458927_updated_faq_big_scheme.pdf
+    accessed_on: "2026-09-23"
+    kind: official-program-page
+notes: >-
+  This is a founder grant, not a scholarship or research fellowship. The
+  official FAQ says an undergraduate student cannot be the project leader;
+  the project leader must have completed a basic degree. Funding is grant-in-aid
+  of up to INR 50 lakh for an 18-month project, released against milestones.

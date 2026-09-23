@@ -42,6 +42,9 @@ benefits:
     different terms.
   amount: 1583
   currency: EUR
+  amount_type: stipend
+  amount_frequency: monthly
+  amount_qualifier: starting-at
   equity_required: false
 
 schedule:
@@ -52,13 +55,15 @@ schedule:
   typical_close_months: []
 
 lifecycle: active
-last_verified: "2026-08-08"
+last_verified: "2026-09-23"
 verification_sources:
   - url: https://phd.pages.ista.ac.at/scientific-internships/
     accessed_on: "2026-08-08"
+    kind: official-program-page
+  - url: https://phd.ista.ac.at/funding-and-awards/
+    accessed_on: "2026-09-23"
     kind: official-program-page
 notes: >-
   Applicants contact research groups directly; availability is not guaranteed.
   This is the year-round Scientific Internship, not the separate centralized
   ISTernship summer programme, which was paused for the 2026 cycle.
-
