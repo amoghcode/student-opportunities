@@ -27,6 +27,10 @@ function uniqueValues(records, getter) {
   return [...new Set(records.flatMap(getter).filter(Boolean))].sort((a, b) => a.localeCompare(b));
 }
 
+function fieldValues(record) {
+  return (record.fields || []).map((value) => value.trim().toLowerCase().replace(/[\s_]+/g, "-"));
+}
+
 function addOptions(select, values, labelFor = humanize) {
   for (const value of values) {
     const option = document.createElement("option");
@@ -264,9 +268,11 @@ function matches(record) {
   const status = getStatus(record);
   return searchMatch
     && selectedMatches(record, categoryFilter, record.categories || [])
-    && selectedMatches(record, levelFilter, record.student_levels || [])
-    && selectedMatches(record, fieldFilter, record.fields || [])
-    && selectedMatches(record, eligibilityFilter, geographies(record))
+    && (selectedMatches(record, levelFilter, record.student_levels || [])
+      || (["secondary-school", "undergraduate", "postgraduate", "doctoral"].includes(levelFilter.value)
+        && (record.student_levels || []).includes("any-student")))
+    && (selectedMatches(record, fieldFilter, fieldValues(record)) || fieldValues(record).includes("all-fields"))
+    && (selectedMatches(record, eligibilityFilter, geographies(record)) || geographies(record).includes("Worldwide"))
     && selectedMatches(record, deliveryFilter, [record.delivery || ""])
     && (!statusFilter.value || status.key === statusFilter.value);
 }
@@ -304,7 +310,7 @@ function resetFilters() {
 function setupFilters() {
   addOptions(categoryFilter, uniqueValues(opportunities, (record) => record.categories || []));
   addOptions(levelFilter, uniqueValues(opportunities, (record) => record.student_levels || []));
-  addOptions(fieldFilter, uniqueValues(opportunities, (record) => record.fields || []));
+  addOptions(fieldFilter, uniqueValues(opportunities, fieldValues));
   addOptions(eligibilityFilter, uniqueValues(opportunities, geographies));
   addOptions(deliveryFilter, uniqueValues(opportunities, (record) => [record.delivery].filter(Boolean)));
 }
@@ -328,6 +334,7 @@ async function start() {
 }
 
 filters.addEventListener("input", render);
+filters.addEventListener("submit", (event) => event.preventDefault());
 filters.addEventListener("change", render);
 filters.addEventListener("reset", () => requestAnimationFrame(render));
 document.querySelector("#reset-filters").addEventListener("click", (event) => {

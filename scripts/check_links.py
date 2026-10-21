@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import concurrent.futures
+import http.client
 import sys
 import time
 import urllib.error
@@ -61,7 +62,7 @@ def check(url: str) -> Result:
                 last_error = str(exc)
                 if method == "HEAD":
                     continue
-            except (urllib.error.URLError, TimeoutError) as exc:
+            except (urllib.error.URLError, OSError, http.client.HTTPException) as exc:
                 last_error = str(exc)
                 break
         if attempt == 0:

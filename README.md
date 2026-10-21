@@ -66,7 +66,11 @@ Requires Python 3.11 or later.
 python -m pip install -e ".[dev]"
 python scripts/validate_data.py
 python -m unittest discover -s tests
+node --test tests/site.test.cjs
 ```
+
+The website behavior tests require Node.js 22 or later and use its built-in test
+runner; there are no npm dependencies.
 
 Link checks are deliberately separate because they use the network:
 
@@ -76,11 +80,22 @@ python scripts/check_links.py
 
 ## Project status
 
-The repository is a community-maintained dataset with a searchable website
-ready to deploy through GitHub Pages. The YAML files remain the canonical
-records; the website helps students find them and sends them to official
-program pages to confirm details. The first versioned release is a separate
-maintainer step after the final review.
+The repository contains 35 curated opportunities covering scholarships,
+research, internships, open source, competitions, and student-founder support.
+The pre-release factual review was merged on September 23, 2026. The schema,
+contribution process, validation tests, and scheduled maintenance checks are in
+place. Verification dates are recorded per entry; this is not a claim that
+every application cycle is currently open.
+
+The searchable website is prepared for GitHub Pages. Its publishing workflow
+runs after the website changes are merged into `main` and GitHub Pages is
+enabled as described above. The YAML files remain the canonical records.
+The first versioned GitHub release has not been published yet.
+
+Current maintenance priorities are to review link-check failures and refresh
+recurring programs approaching their next application season. The October 19,
+2026 audit reported no stale records and six priority cycle reviews: CERN
+openlab, both EPFL programs, Erasmus Mundus, ETH Zurich, and Technovation Girls.
 
 ## Licenses
 
