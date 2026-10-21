@@ -2,7 +2,7 @@
 
 An open, community-maintained dataset of useful opportunities for students.
 
-This repository is intentionally **data-first**. It does not contain a website yet. The current goal is to establish a reliable collection that can later power a website, API, newsletter, or other tools without changing the source data.
+This repository is intentionally **data-first**. The YAML files are the canonical collection and power a simple searchable website, with room to support other tools later without changing the source data.
 
 ## What belongs here
 
@@ -23,6 +23,32 @@ An entry must have an official source, clear student relevance, and enough infor
 - Changes are proposed through issues or pull requests and reviewed before merging.
 
 Read [`docs/data-model.md`](docs/data-model.md) for field definitions, [`docs/maintenance-policy.md`](docs/maintenance-policy.md) for expiration and verification policy, and [`docs/maintainer-guide.md`](docs/maintainer-guide.md) for day-to-day GitHub operations.
+
+## Search the directory
+
+The simple website in [`site/`](site/) searches the same YAML records maintained
+in `opportunities/`; the generated JSON file is rebuilt and is not edited by
+hand. Search by keyword, then filter by opportunity type, study level, subject,
+eligibility geography, delivery format, or application timing. Application
+status is derived from recorded dates. If an opening date is unknown, the site
+does not claim that applications are open.
+
+To preview the website on your computer from the repository folder:
+
+```bash
+python -m pip install -e .
+python scripts/validate_data.py
+python scripts/build_site_data.py
+python -m http.server 8000 --directory site
+```
+
+Then open `http://localhost:8000` in your browser. Keep the terminal window open
+while viewing the page; press `Ctrl+C` there when you are done.
+
+The website workflow rebuilds the data and deploys the site to GitHub Pages
+after changes are merged into `main`. To enable publishing, open the repository's
+**Settings → Pages** page and choose **GitHub Actions** as the source. The site
+can then be reached at `https://amoghcode.github.io/student-opportunities/`.
 
 ## Contributing
 
@@ -50,7 +76,11 @@ python scripts/check_links.py
 
 ## Project status
 
-Foundation stage. The schema and contribution process are ready for an initial curated set. A public website should be added only after the repository contains enough reviewed records to test the information architecture properly.
+The repository is a community-maintained dataset with a searchable website
+ready to deploy through GitHub Pages. The YAML files remain the canonical
+records; the website helps students find them and sends them to official
+program pages to confirm details. The first versioned release is a separate
+maintainer step after the final review.
 
 ## Licenses
 

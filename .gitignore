@@ -6,4 +6,5 @@ venv/
 .coverage
 link-report.json
 .DS_Store
+/site/opportunities.json
 
