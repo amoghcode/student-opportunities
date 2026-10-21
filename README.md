@@ -96,6 +96,8 @@ Current maintenance priorities are to review link-check failures and refresh
 recurring programs approaching their next application season. The October 19,
 2026 audit reported no stale records and six priority cycle reviews: CERN
 openlab, both EPFL programs, Erasmus Mundus, ETH Zurich, and Technovation Girls.
+See the [October 22 link-audit follow-up](docs/link-audit-2026-10-22.md) for the
+latest external server and certificate failures that still require attention.
 
 ## Licenses
 
