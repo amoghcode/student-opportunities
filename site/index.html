@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f5ef">
+    <meta name="description" content="Search student scholarships, internships, research programs, competitions, and more. Every listing links to an official source.">
+    <title>Student Opportunities — Find your next step</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to opportunities</a>
+
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Student Opportunities home">
+        <span class="brand-mark" aria-hidden="true">so</span>
+        <span>Student Opportunities</span>
+      </a>
+      <a class="header-link" href="https://github.com/amoghcode/student-opportunities">
+        About this project <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> A directory made for students</p>
+          <h1 id="page-title">Find an opportunity<br>that <span>moves you forward.</span></h1>
+          <p class="hero-description">Explore scholarships, internships, research programs, competitions, and more. Start with what you care about; every listing points you to the official details.</p>
+        </div>
+        <div class="hero-aside" aria-label="Directory overview">
+          <div class="hero-stat">
+            <span class="stat-number" id="total-count">—</span>
+            <span class="stat-label">opportunities to explore</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-number" id="open-count">—</span>
+            <span class="stat-label">open by recorded dates</span>
+          </div>
+          <p class="hero-aside-note">Always confirm eligibility and deadlines with the official program.</p>
+        </div>
+        <span class="hero-orbit orbit-one" aria-hidden="true"></span>
+        <span class="hero-orbit orbit-two" aria-hidden="true"></span>
+      </section>
+
+      <section class="explorer" aria-labelledby="explorer-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-eyebrow">Your next step starts here</p>
+            <h2 id="explorer-title">Explore opportunities</h2>
+          </div>
+          <p class="section-hint">Search first, then narrow it down.</p>
+        </div>
+
+        <form id="filters" class="filter-panel" role="search">
+          <div class="search-row">
+            <label class="search-label" for="search-input">What are you looking for?</label>
+            <div class="search-control">
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input id="search-input" name="q" type="search" placeholder="Try “biology”, “Canada”, or “scholarship”" autocomplete="off">
+              <kbd aria-hidden="true">/</kbd>
+            </div>
+          </div>
+
+          <div class="filter-grid">
+            <div class="filter-control">
+              <label for="category-filter">Opportunity type</label>
+              <select id="category-filter" name="category"><option value="">All types</option></select>
+            </div>
+            <div class="filter-control">
+              <label for="level-filter">Your study level</label>
+              <select id="level-filter" name="level"><option value="">All study levels</option></select>
+            </div>
+            <div class="filter-control">
+              <label for="field-filter">Area of interest</label>
+              <select id="field-filter" name="field"><option value="">All areas</option></select>
+            </div>
+            <div class="filter-control">
+              <label for="eligibility-filter">Who can apply</label>
+              <select id="eligibility-filter" name="eligibility"><option value="">Any eligible place</option></select>
+            </div>
+            <div class="filter-control">
+              <label for="delivery-filter">How it happens</label>
+              <select id="delivery-filter" name="delivery"><option value="">Any format</option></select>
+            </div>
+            <div class="filter-control">
+              <label for="status-filter">Application timing</label>
+              <select id="status-filter" name="status">
+                <option value="">Any timing</option>
+                <option value="open">Open by recorded dates</option>
+                <option value="upcoming">Opening date announced</option>
+                <option value="rolling">Rolling applications</option>
+                <option value="uncertain">Dates not fully confirmed</option>
+                <option value="closed">Recorded cycle closed</option>
+                <option value="paused">Program paused</option>
+                <option value="discontinued">Program ended</option>
+                <option value="unknown">Program status unknown</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="filter-footer">
+            <p id="results-summary" class="results-summary" role="status" aria-live="polite">Loading opportunities…</p>
+            <div class="sort-control">
+              <label for="sort-filter">Sort by</label>
+              <select id="sort-filter" name="sort">
+                <option value="deadline">Nearest deadline</option>
+                <option value="name">Name A–Z</option>
+                <option value="verified">Recently checked</option>
+              </select>
+            </div>
+            <button class="reset-button" id="reset-filters" type="reset">Clear filters</button>
+          </div>
+        </form>
+
+        <div id="load-error" class="message-card" hidden>
+          <h3>We couldn’t load the opportunity list.</h3>
+          <p>Please refresh the page in a moment. If you are viewing a downloaded copy, follow the README instructions to build and preview the site.</p>
+        </div>
+        <div id="results" class="card-grid" aria-label="Opportunity results"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <span class="empty-icon" aria-hidden="true">↗</span>
+          <h3>No matches this time</h3>
+          <p>Try a broader search or clear one of the filters.</p>
+          <button class="button-secondary" id="empty-reset" type="button">Show all opportunities</button>
+        </div>
+      </section>
+
+      <section class="trust-note" aria-label="About listing accuracy">
+        <span class="trust-icon" aria-hidden="true">✳</span>
+        <p><strong>Use this as your starting point.</strong> Programs can change dates and eligibility. Check each official page before applying; dates marked unconfirmed have not been inferred.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="./">
+        <span class="brand-mark" aria-hidden="true">so</span>
+        <span>Student Opportunities</span>
+      </a>
+      <p>Community-maintained data, with a link back to the source.</p>
+      <div class="footer-links">
+        <a href="https://github.com/amoghcode/student-opportunities">Contribute on GitHub</a>
+        <a href="https://creativecommons.org/licenses/by/4.0/">Dataset license: CC BY 4.0</a>
+      </div>
+    </footer>
+    <noscript><p class="noscript-note">This directory needs JavaScript enabled to search and display opportunities.</p></noscript>
+  </body>
+</html>

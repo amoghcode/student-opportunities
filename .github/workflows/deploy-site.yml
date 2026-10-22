@@ -1,0 +1,72 @@
+name: Build and publish opportunity website
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/deploy-site.yml"
+      - "data/**"
+      - "opportunities/**"
+      - "schema/**"
+      - "scripts/build_site_data.py"
+      - "scripts/validate_data.py"
+      - "site/**"
+      - "pyproject.toml"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/deploy-site.yml"
+      - "data/**"
+      - "opportunities/**"
+      - "schema/**"
+      - "scripts/build_site_data.py"
+      - "scripts/validate_data.py"
+      - "site/**"
+      - "pyproject.toml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install project dependencies
+        run: python -m pip install -e .
+      - name: Validate opportunity data
+        run: python scripts/validate_data.py
+      - name: Prepare website data
+        run: python scripts/build_site_data.py
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@v5
+      - name: Upload website files
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
