@@ -2,6 +2,10 @@
 
 An open, community-maintained dataset of useful opportunities for students.
 
+[Explore the live directory](https://amoghcode.github.io/student-opportunities/) ·
+[Release v0.1.0](https://github.com/amoghcode/student-opportunities/releases/tag/v0.1.0) ·
+[Suggest an opportunity](https://github.com/amoghcode/student-opportunities/issues/new/choose)
+
 This repository is intentionally **data-first**. The YAML files are the canonical collection and power a simple searchable website, with room to support other tools later without changing the source data.
 
 ## What belongs here
@@ -26,7 +30,8 @@ Read [`docs/data-model.md`](docs/data-model.md) for field definitions, [`docs/ma
 
 ## Search the directory
 
-The simple website in [`site/`](site/) searches the same YAML records maintained
+The [live directory](https://amoghcode.github.io/student-opportunities/) searches
+the same YAML records maintained
 in `opportunities/`; the generated JSON file is rebuilt and is not edited by
 hand. Search by keyword, then filter by opportunity type, study level, subject,
 eligibility geography, delivery format, or application timing. Application
@@ -45,10 +50,11 @@ python -m http.server 8000 --directory site
 Then open `http://localhost:8000` in your browser. Keep the terminal window open
 while viewing the page; press `Ctrl+C` there when you are done.
 
-The website workflow rebuilds the data and deploys the site to GitHub Pages
-after changes are merged into `main`. To enable publishing, open the repository's
-**Settings → Pages** page and choose **GitHub Actions** as the source. The site
-can then be reached at `https://amoghcode.github.io/student-opportunities/`.
+The [website workflow](.github/workflows/deploy-site.yml) rebuilds the data and
+deploys the site to GitHub Pages when relevant changes are merged into `main`.
+Pull requests affecting the site or dataset build a preview artifact without
+publishing. For your own fork, enable publishing in **Settings → Pages** by
+choosing **GitHub Actions** as the source.
 
 ## Contributing
 
@@ -80,24 +86,37 @@ python scripts/check_links.py
 
 ## Project status
 
-The repository contains 35 curated opportunities covering scholarships,
-research, internships, open source, competitions, and student-founder support.
-The pre-release factual review was merged on September 23, 2026. The schema,
-contribution process, validation tests, and scheduled maintenance checks are in
-place. Verification dates are recorded per entry; this is not a claim that
-every application cycle is currently open.
+As of October 28, 2026:
 
-The searchable website is prepared for GitHub Pages. Its publishing workflow
-runs after the website changes are merged into `main` and GitHub Pages is
-enabled as described above. The YAML files remain the canonical records.
-The first versioned GitHub release has not been published yet.
+- **Released:** [v0.1.0](https://github.com/amoghcode/student-opportunities/releases/tag/v0.1.0)
+  was published on October 22, 2026. The release is a versioned snapshot;
+  `main` and the live website continue to receive updates.
+- **Live:** the searchable directory contains 35 curated opportunities across
+  scholarships, research, internships, open source, competitions, and
+  student-founder support. The website theme was updated after the initial
+  release.
+- **Validated and deployed:** the latest dataset validation and website
+  deployment passed on October 27, 2026. See
+  [GitHub Actions](https://github.com/amoghcode/student-opportunities/actions)
+  for current results.
+- **Maintained through pull requests:** `main` is protected. The schema,
+  automated tests, contribution forms, and weekly maintenance workflow are in
+  place; YAML files remain the canonical records.
 
-Current maintenance priorities are to review link-check failures and refresh
-recurring programs approaching their next application season. The October 19,
-2026 audit reported no stale records and six priority cycle reviews: CERN
-openlab, both EPFL programs, Erasmus Mundus, ETH Zurich, and Technovation Girls.
-See the [October 22 link-audit follow-up](docs/link-audit-2026-10-22.md) for the
-latest external server and certificate failures that still require attention.
+### Known limitations and maintenance
+
+The latest scheduled maintenance run, on October 26, 2026, failed. Automated
+link checks can encounter certificate errors, server refusals, or access
+restrictions even when a page loads in a browser. Manual verification and
+automated reachability are tracked separately; a failed check alone does not
+mean that a programme has ended. See the
+[October 22 link-audit follow-up](docs/link-audit-2026-10-22.md) for the earlier
+findings and manual review, and the workflow logs for subsequent results.
+
+Application-cycle updates and link reviews remain ongoing. Verification dates
+are recorded per entry; inclusion in the directory does not mean applications
+are currently open. Confirm eligibility, funding, and deadlines on the official
+programme pages before applying.
 
 ## Licenses
 
