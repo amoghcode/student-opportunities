@@ -506,3 +506,9 @@ kbd {
 .trust-icon { background: none; }
 :focus-visible { outline: 2px solid var(--ink); }
 .search-control input:focus { border-color: var(--ink); outline: 2px solid var(--ink); }
+
+.eligibility-checklist { border-top: 1px solid var(--line); padding-top: 14px; margin-top: 12px; font-size: 13px; }
+.eligibility-checklist summary { cursor: pointer; font-weight: 600; }
+.checklist-item { display: flex; align-items: flex-start; gap: 9px; margin: 12px 0; }
+.checklist-item input { flex: 0 0 auto; margin-top: 4px; }
+.checklist-note, .shortlist-note { color: var(--muted); font-size: 12px; margin: 12px 0; }
