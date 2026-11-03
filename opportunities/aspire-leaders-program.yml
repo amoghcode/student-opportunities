@@ -1,0 +1,62 @@
+id: aspire-leaders-program
+name: Aspire Leaders Program
+organization: Aspire Institute
+categories:
+- community-program
+official_url: https://www.aspireleaders.org/program/aspire-leaders-program/
+application_url: null
+application_method: direct
+application_fee:
+  required: false
+  amount: null
+  currency: null
+  notes: No application fee or tuition; optional USD 5 credential bundle after completion.
+description: A cohort-based online leadership programme with peer interaction, masterclasses
+  and professional-development activities for students from underserved backgrounds.
+eligibility_geographies:
+- scope: global
+  basis: unrestricted
+  values: []
+locations: []
+delivery: remote
+student_levels:
+- undergraduate
+- postgraduate
+- doctoral
+- recent-graduate
+fields:
+- all-fields
+eligibility_summary: Applicants worldwide aged 18-29 who are enrolled in or have graduated from
+  university and come from a limited-income background or are first-generation university students.
+  First-year undergraduates qualify if these additional conditions are met. English participation
+  and internet access are needed.
+tags:
+- first-year
+benefits:
+  summary: Free online leadership development and a completion certificate; alumni opportunities
+    have separate requirements and are not guaranteed grants.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://www.aspireleaders.org/program/aspire-leaders-program/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://www.aspireleaders.org/faq/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: 2026 applications are closed. The page offers an interest form for 2027; an interest
+  registration is not admission. Dates shown for October 21-November 30 describe the programme
+  cohort, not an application window. Optional USD 5 credentials are separate from the free programme.
+  Aspire is an independent nonprofit, not a Harvard University admission or degree.

@@ -1,0 +1,59 @@
+id: reliance-foundation-undergraduate-scholarship
+name: Reliance Foundation Undergraduate Scholarship
+organization: Reliance Foundation
+categories:
+- scholarship
+official_url: https://www.scholarships.reliancefoundation.org/UG_Scholarship
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee statement was confirmed in the reviewed sources.
+description: Merit-cum-means scholarship supporting first-year undergraduates across subject
+  streams, with financial assistance and access to a scholar and alumni network.
+eligibility_geographies:
+- scope: country
+  basis: nationality
+  values:
+  - India
+locations:
+- scope: country
+  values:
+  - India
+delivery: not-applicable
+student_levels:
+- undergraduate
+fields:
+- all-fields
+eligibility_summary: Resident Indian citizens enrolled in the first year of a regular full-time
+  undergraduate degree in 2026-27, with at least 60% in Class XII and household income below
+  INR 15 lakh. The aptitude test is mandatory. Second-year or later students, non-regular study
+  modes, post-Class-X diploma routes, and two- or six-year undergraduate courses are excluded.
+tags:
+- first-year
+benefits:
+  summary: Up to INR 2 lakh over the full degree programme, plus scholar and alumni networking.
+  amount: 200000
+  currency: INR
+  amount_type: grant
+  amount_frequency: total
+  amount_qualifier: up-to
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://www.scholarships.reliancefoundation.org/UG_Scholarship
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: The rendered official page says 2026-27 applications are closed, although its banner
+  still says open. The explicit application-process notice takes precedence. No next-cycle dates
+  or exact past closing date were confirmed. A student already in first year must not assume
+  eligibility next year.

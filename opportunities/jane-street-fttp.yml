@@ -1,0 +1,61 @@
+id: jane-street-fttp
+name: Jane Street FTTP
+organization: Jane Street
+categories:
+- community-program
+official_url: https://www.janestreet.com/join-jane-street/programs-and-events/fttp/
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee statement was confirmed in the reviewed sources.
+description: A selective short programme introducing first-year undergraduates to quantitative
+  trading and technology through classes and a team-based trading simulation.
+eligibility_geographies:
+- scope: unspecified
+  basis: other
+  values: []
+locations: []
+delivery: in-person
+student_levels:
+- undergraduate
+fields:
+- mathematics
+- physics
+- computer-science
+- technology
+eligibility_summary: First-year undergraduates planning STEM-related study, including mathematics,
+  physics or computer science. Prior finance knowledge is not required. Applicants must use
+  the nearest offered location; geographic eligibility depends on the session and is not confirmed
+  as globally unrestricted.
+tags:
+- first-year
+- stem
+- career-exploration
+benefits:
+  summary: Classes and simulation activities; the organiser covers travel, accommodation and
+    meals and provides a daily amount for programme expenses.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://www.janestreet.com/join-jane-street/programs-and-events/fttp/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: The page currently offers notifications about upcoming sessions, not a dated application
+  call. No current India-specific session or eligibility was confirmed. Check the nearest session's
+  geography and academic-year rules before applying. This is short career exploration, not a
+  paid internship.

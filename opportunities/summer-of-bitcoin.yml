@@ -1,0 +1,68 @@
+id: summer-of-bitcoin
+name: Summer of Bitcoin
+organization: Summer of Bitcoin
+categories:
+- internship
+- open-source
+official_url: https://www.summerofbitcoin.org/
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No application fee statement was confirmed in the reviewed sources.
+description: A global remote summer programme in which students work with mentors on Bitcoin-related
+  open-source development or design projects.
+eligibility_geographies:
+- scope: global
+  basis: unrestricted
+  values: []
+locations: []
+delivery: remote
+student_levels:
+- secondary-school
+- undergraduate
+fields:
+- computer-science
+- software-engineering
+- design
+- open-source-software
+eligibility_summary: Students enrolled in university or high school with strong programming
+  or design skills and open-source experience. No minimum completed university year is specified,
+  so first-year undergraduates can qualify, but this is not a zero-experience programme. Participants
+  need English communication, reliable internet, regular mentor contact and full-time availability
+  for twelve weeks.
+tags:
+- first-year
+- open-source
+- mentorship
+- summer
+- bitcoin
+benefits:
+  summary: Mentored open-source project experience and a stipend paid in bitcoin; no current
+    numeric amount was confirmed.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://guide.summerofbitcoin.org/about/am-i-eligible
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://guide.summerofbitcoin.org/about/what-is-summer-of-bitcoin
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: No upcoming application dates were verified. The guide requires full-time summer commitment
+  and warns against competing jobs or substantial commitments. Stipend is paid in bitcoin, not
+  a guaranteed INR amount. Confirm current cohort, project prerequisites and terms before applying.
