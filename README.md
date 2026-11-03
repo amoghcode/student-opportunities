@@ -12,10 +12,13 @@ This repository is intentionally **data-first**. The YAML files are the canonica
 
 - Grants, accelerators, incubators, and student-founder programs
 - Hackathons, competitions, and open-source programs
-- Fellowships, research programs, internships, and scholarships
+- Fellowships, research programs, and internships
 - Conference/travel grants and other selective student programs
 
 An entry must have an official source, clear student relevance, and enough information for someone to decide whether to investigate it. Promotional copy, referral links, unverifiable claims, and ordinary paid courses do not belong.
+
+New scholarship listings are outside the current contribution scope. Existing
+scholarship records are retained pending a separate review.
 
 ## How the dataset works
 
@@ -29,6 +32,10 @@ An entry must have an official source, clear student relevance, and enough infor
 Read [`docs/data-model.md`](docs/data-model.md) for field definitions, [`docs/maintenance-policy.md`](docs/maintenance-policy.md) for expiration and verification policy, and [`docs/maintainer-guide.md`](docs/maintainer-guide.md) for day-to-day GitHub operations.
 
 ## Search the directory
+
+Starting university? See the [first-year opportunities guide](docs/first-year-opportunities.md)
+for three additions, eligibility caveats, and application-status notes. Search
+**first-year** in the directory to find these records.
 
 The [live directory](https://amoghcode.github.io/student-opportunities/) searches
 the same YAML records maintained
@@ -86,16 +93,16 @@ python scripts/check_links.py
 
 ## Project status
 
-As of October 28, 2026:
+As of November 3, 2026:
 
 - **Released:** [v0.1.0](https://github.com/amoghcode/student-opportunities/releases/tag/v0.1.0)
   was published on October 22, 2026. The release is a versioned snapshot;
   `main` and the live website continue to receive updates.
-- **Live:** the searchable directory contains 35 curated opportunities across
+- **Dataset:** the collection contains 38 curated opportunities across
   scholarships, research, internships, open source, competitions, and
   student-founder support. The website theme was updated after the initial
   release.
-- **Validated and deployed:** the latest dataset validation and website
+- **Validated and deployed:** dataset validation and website
   deployment passed on October 27, 2026. See
   [GitHub Actions](https://github.com/amoghcode/student-opportunities/actions)
   for current results.
@@ -105,7 +112,7 @@ As of October 28, 2026:
 
 ### Known limitations and maintenance
 
-The latest scheduled maintenance run, on October 26, 2026, failed. Automated
+The scheduled maintenance run on October 26, 2026 failed. Automated
 link checks can encounter certificate errors, server refusals, or access
 restrictions even when a page loads in a browser. Manual verification and
 automated reachability are tracked separately; a failed check alone does not
