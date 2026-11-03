@@ -16,6 +16,55 @@ const sortFilter = document.querySelector("#sort-filter");
 const totalCount = document.querySelector("#total-count");
 const openCount = document.querySelector("#open-count");
 
+const savedOnly = document.querySelector("#saved-only");
+const storageNotice = document.querySelector("#storage-notice");
+function readPreferences() {
+  try {
+    const value = JSON.parse(localStorage.getItem("student-opportunities-preferences") || "{}");
+    return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+  } catch { return {}; }
+}
+const preferences = readPreferences();
+function persistPreferences() {
+  try { localStorage.setItem("student-opportunities-preferences", JSON.stringify(preferences)); }
+  catch { storageNotice.hidden = false; }
+}
+function isSaved(record) { return preferences[record.id]?.saved === true; }
+function eligibilityChecks(record) {
+  return [
+    ["requirements", eligibilityText(record)],
+    ["level", `Study level: ${(record.student_levels || []).map(humanize).join(", ") || "Check official requirements"}`],
+    ["geography", `Eligible geography: ${geographies(record).join(", ") || "Check official restrictions"}`],
+    ["official", "I checked the current requirements, availability and commitments on the official program page."],
+  ];
+}
+function createChecklist(record) {
+  const disclosure = createElement("details", "eligibility-checklist");
+  const checks = eligibilityChecks(record);
+  const state = preferences[record.id]?.checks || {};
+  const title = createElement("summary");
+  function updateTitle() {
+    title.textContent = `Eligibility checklist (${checks.filter(([key, text]) => state[key] === text).length}/${checks.length} reviewed)`;
+  }
+  updateTitle();
+  disclosure.append(title, createElement("p", "checklist-note", "Tick each item after checking it against your situation. This is a personal review, not confirmation of eligibility."));
+  if (record.notes) disclosure.append(createElement("p", "checklist-note", record.notes));
+  for (const [key, text] of checks) {
+    const label = createElement("label", "checklist-item");
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.checked = state[key] === text;
+    input.addEventListener("change", () => {
+      if (input.checked) state[key] = text; else delete state[key];
+      preferences[record.id] = { ...preferences[record.id], checks: state };
+      persistPreferences();
+      updateTitle();
+    });
+    label.append(input, createElement("span", "", text));
+    disclosure.append(label);
+  }
+  return disclosure;
+}
 let opportunities = [];
 const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -251,9 +300,22 @@ function createCard(record) {
   link.href = record.application_url || record.official_url || "#";
   link.rel = "noopener noreferrer";
   link.append(document.createTextNode(record.application_url ? "Go to application" : "Official program page"), createElement("span", "", "↗"));
-  bottom.append(verified, link);
+  const save = createElement("button", "button-secondary", isSaved(record) ? "Saved" : "Save");
+  save.type = "button";
+  save.setAttribute("aria-pressed", String(isSaved(record)));
+  save.setAttribute("aria-label", `Save ${record.name}`);
+  save.addEventListener("click", () => {
+    preferences[record.id] = { ...preferences[record.id], saved: !isSaved(record) };
+    persistPreferences();
+    if (savedOnly.checked) { render(); savedOnly.focus(); }
+    else {
+      save.textContent = isSaved(record) ? "Saved" : "Save";
+      save.setAttribute("aria-pressed", String(isSaved(record)));
+    }
+  });
+  bottom.append(verified, save, link);
 
-  card.append(topline, heading, organization, description, details, bottom);
+  card.append(topline, heading, organization, description, details, createChecklist(record), bottom);
   return card;
 }
 
@@ -267,6 +329,7 @@ function matches(record) {
   const searchMatch = !query || allSearchText(record).includes(query);
   const status = getStatus(record);
   return searchMatch
+    && (!savedOnly.checked || isSaved(record))
     && selectedMatches(record, categoryFilter, record.categories || [])
     && (selectedMatches(record, levelFilter, record.student_levels || [])
       || (["secondary-school", "undergraduate", "postgraduate", "doctoral"].includes(levelFilter.value)
