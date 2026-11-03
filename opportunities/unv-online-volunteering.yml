@@ -1,0 +1,64 @@
+id: unv-online-volunteering
+name: UNV Online Volunteering
+organization: United Nations Volunteers
+categories:
+- community-program
+official_url: https://www.unv.org/become-online-volunteer
+application_url: null
+application_method: decentralized
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No explicit application fee statement was confirmed in the reviewed sources.
+description: A service connecting remote volunteers with task-based assignments from screened
+  UN entities, public institutions and civil-society organizations working on development goals.
+eligibility_geographies:
+- scope: global
+  basis: unrestricted
+  values: []
+locations: []
+delivery: remote
+student_levels:
+- undergraduate
+- postgraduate
+- doctoral
+- recent-graduate
+fields:
+- all-fields
+eligibility_summary: Applicants worldwide aged at least 18; no universal degree requirement.
+  Each host sets assignment-specific skills, language and experience requirements. Students
+  and graduates can apply, but selection is not guaranteed.
+tags:
+- volunteering
+- remote
+- social-impact
+- unpaid
+benefits:
+  summary: Unpaid practical volunteering and an electronic certificate of appreciation from
+    the host after collaboration. No living allowance or financial compensation.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://www.unv.org/become-online-volunteer
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://explore.unv.org/node/122
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: Each online assignment lasts at most twelve weeks and up to twenty hours per week. This
+  is not UN employment, an internship contract or formal UN Volunteer status. New assignments
+  have their own deadlines; platform registration does not guarantee placement. Select online,
+  not on-site, assignments on the official platform.

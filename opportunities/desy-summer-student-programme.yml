@@ -1,0 +1,76 @@
+id: desy-summer-student-programme
+name: DESY Summer Student Programme
+organization: Deutsches Elektronen-Synchrotron
+categories:
+- internship
+- research
+official_url: https://summerstudents.desy.de/
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No explicit application fee statement was confirmed in the reviewed sources.
+description: A summer laboratory research placement in physics and related computing or engineering
+  areas, with project work and lectures at DESY in Hamburg or Zeuthen.
+eligibility_geographies:
+- scope: global
+  basis: study-location
+  values: []
+locations:
+- scope: country
+  values:
+  - Germany
+delivery: in-person
+student_levels:
+- undergraduate
+- postgraduate
+fields:
+- physics
+- scientific-computing
+- engineering
+eligibility_summary: The reviewed 2026 call requires at least three years of university study
+  by summer, continuing university enrolment for the entire placement, English and basic computing
+  skills. Intended for students approaching a bachelor's degree or enrolled in a master's; those
+  with a completed master's are excluded. No previous DESY summer participation. Students enrolled
+  at Russian or Belarusian universities are excluded regardless of citizenship.
+tags:
+- summer
+- physics
+- research
+- international
+benefits:
+  summary: The 2026 programme provides EUR 28.50 per calendar day and free DESY hostel accommodation.
+    Travel support is subject to applicable rules.
+  amount: 28.5
+  currency: EUR
+  amount_type: stipend
+  amount_frequency: daily
+  amount_qualifier: exact
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://summerstudents.desy.de/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://summerstudents.desy.de/conditions/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://summerstudents.desy.de/application/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://summerstudents.desy.de/frequently_asked_questions/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: 2026 applications are closed; no 2027 application dates were verified. July 21-September
+  10, 2026 are programme dates, not application dates. The FAQ's detailed travel formula is
+  explicitly from 2025 and was not treated as confirmed for future cohorts. Health insurance
+  is mandatory.

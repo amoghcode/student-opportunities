@@ -1,0 +1,80 @@
+id: digital-india-internship
+name: Digital India Internship Scheme
+organization: Ministry of Electronics and Information Technology, Government of India
+categories:
+- internship
+official_url: https://intern.meity.gov.in/know_your_eligibility
+application_url: null
+application_method: through-institution
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No explicit application fee statement was confirmed in the reviewed sources.
+description: A supervised government internship working on technology, electronics and selected
+  digital-policy areas, normally based at MeitY in New Delhi.
+eligibility_geographies:
+- scope: country
+  basis: nationality
+  values:
+  - India
+locations:
+- scope: country
+  values:
+  - India
+delivery: in-person
+student_levels:
+- undergraduate
+- postgraduate
+fields:
+- computer-science
+- electronics
+- cybersecurity
+- law
+- economics
+- statistics
+- public-policy
+eligibility_summary: Indian students in recognized Indian universities, in their penultimate
+  year with at least 60% in the last qualifying exam. Eligible technical degrees include specified
+  BE/BTech, ME/MTech, MSc and MCA/DOEACC B-level programmes. LLB is eligible for the specified
+  internet/gaming policy areas; economics/statistics bachelor's students for Digital Economy.
+  Final-semester students and those graduating in summer 2026 are excluded by the reviewed call.
+tags:
+- india
+- government
+- technology
+- public-policy
+benefits:
+  summary: INR 10,000 monthly stipend, conditional on satisfactory performance and an accepted
+    final report; payment follows completion. Accommodation is self-arranged.
+  amount: 10000
+  currency: INR
+  amount_type: stipend
+  amount_frequency: monthly
+  amount_qualifier: exact
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: Asia/Kolkata
+  cycles:
+  - label: Digital India Internship Scheme 2026 applications
+    opens_on: '2026-04-10'
+    deadline: '2026-04-29'
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://intern.meity.gov.in/know_your_eligibility
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://intern.meity.gov.in/public/assets/Files/DIIS-2026.pdf
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://intern.meity.gov.in/schedules
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: The 2026 application window has passed; no 2027 dates were verified. Institutions must
+  sponsor/forward applications. Duration is two months, extendable to three; normally on-site,
+  with virtual work only as permitted by the supervisor. This is not a promise of government
+  employment.

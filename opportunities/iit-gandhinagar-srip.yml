@@ -1,0 +1,73 @@
+id: iit-gandhinagar-srip
+name: IIT Gandhinagar Summer Research Internship Program
+organization: Indian Institute of Technology Gandhinagar
+categories:
+- internship
+- research
+official_url: https://srip.iitgn.ac.in/info/guidelines/
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No explicit application fee statement was confirmed in the reviewed sources.
+description: A supervised summer research placement with IIT Gandhinagar faculty, including
+  a final presentation and report, with projects open across degree specializations.
+eligibility_geographies:
+- scope: country
+  basis: study-location
+  values:
+  - India
+locations:
+- scope: country
+  values:
+  - India
+delivery: in-person
+student_levels:
+- undergraduate
+- postgraduate
+fields:
+- engineering
+- science
+- technology
+- research
+eligibility_summary: Bachelor's or master's students at a prominent institution in India. Selection
+  depends on the project, interests, prior experience and faculty fit; internal and external
+  students may participate. The reviewed guidelines require at least eight weeks of in-person
+  work.
+tags:
+- india
+- summer
+- research
+- iit
+benefits:
+  summary: Guidelines list INR 2,000 per week, payable after completion; faculty-funded projects
+    may vary. A certificate is offered; hostel charges are paid by the student.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: Asia/Kolkata
+  cycles:
+  - label: SRIP 2026 applications
+    opens_on: null
+    deadline: '2026-03-05'
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://srip.iitgn.ac.in/info/guidelines/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://srip.iitgn.ac.in/info/srip-2026/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: The 2026 deadline has passed and results are published. No 2027 application dates were
+  verified. Review the current participating faculty and project list. Hostel accommodation
+  is available but is not free.
