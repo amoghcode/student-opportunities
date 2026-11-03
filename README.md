@@ -12,10 +12,13 @@ This repository is intentionally **data-first**. The YAML files are the canonica
 
 - Grants, accelerators, incubators, and student-founder programs
 - Hackathons, competitions, and open-source programs
-- Fellowships, research programs, internships, and scholarships
+- Fellowships, research programs, and internships
 - Conference/travel grants and other selective student programs
 
 An entry must have an official source, clear student relevance, and enough information for someone to decide whether to investigate it. Promotional copy, referral links, unverifiable claims, and ordinary paid courses do not belong.
+
+New scholarship listings are outside the current contribution scope. Existing
+scholarship records are retained pending a separate review.
 
 ## How the dataset works
 
@@ -31,7 +34,7 @@ Read [`docs/data-model.md`](docs/data-model.md) for field definitions, [`docs/ma
 ## Search the directory
 
 Starting university? See the [first-year opportunities guide](docs/first-year-opportunities.md)
-for six additions, eligibility caveats, and application-status notes. Search
+for three additions, eligibility caveats, and application-status notes. Search
 **first-year** in the directory to find these records.
 
 The [live directory](https://amoghcode.github.io/student-opportunities/) searches
@@ -95,7 +98,7 @@ As of November 3, 2026:
 - **Released:** [v0.1.0](https://github.com/amoghcode/student-opportunities/releases/tag/v0.1.0)
   was published on October 22, 2026. The release is a versioned snapshot;
   `main` and the live website continue to receive updates.
-- **Dataset:** the collection contains 41 curated opportunities across
+- **Dataset:** the collection contains 38 curated opportunities across
   scholarships, research, internships, open source, competitions, and
   student-founder support. The website theme was updated after the initial
   release.
