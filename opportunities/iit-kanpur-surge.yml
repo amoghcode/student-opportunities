@@ -1,0 +1,77 @@
+id: iit-kanpur-surge
+name: IIT Kanpur SURGE
+organization: Indian Institute of Technology Kanpur
+categories:
+- internship
+- research
+official_url: https://surge.iitk.ac.in/
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: The 2026 schedule requires administrative-fee payment after selection. Amount and whether
+    an initial application fee applies were not confirmed.
+description: An approximately eight-week undergraduate research internship involving faculty-supervised
+  projects at IIT Kanpur.
+eligibility_geographies:
+- scope: country
+  basis: other
+  values:
+  - India
+  - Nepal
+  - Bhutan
+locations:
+- scope: country
+  values:
+  - India
+delivery: in-person
+student_levels:
+- undergraduate
+fields:
+- engineering
+- science
+- research
+eligibility_summary: '2026 non-IITK Indian route: third-year BE/BTech/BArch/BS or five-year
+  dual-degree students, or second-year BSc/BA students, with at least CPI 6.0/60%. IITK students
+  have separate year rules and minimum CPI 5.5. A separate route covers Nepal and Bhutan; applicants
+  must use the applicable category and supporting-document requirements.'
+tags:
+- india
+- summer
+- research
+- iit
+benefits:
+  summary: Faculty-supervised research and project-presentation experience. A universal stipend
+    amount was not confirmed.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: Asia/Kolkata
+  cycles:
+  - label: SURGE 2026 registration
+    opens_on: '2026-02-02'
+    deadline: '2026-02-22'
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://surge.iitk.ac.in/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://surge.iitk.ac.in/eligibility
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://surge.iitk.ac.in/about
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: 2026 registration is closed; no 2027 call was verified. Non-IITK students need recommendations
+  and a research proposal. IITK participants need a consenting mentor and follow different course-overlap
+  rules. Administrative fees after selection are separate from an application fee.

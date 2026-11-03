@@ -1,0 +1,75 @@
+id: cern-technical-studentship
+name: CERN Technical Studentship
+organization: CERN
+categories:
+- internship
+official_url: https://careers.cern/programmes/technical-studentship/
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No explicit application fee statement was confirmed in the reviewed sources.
+description: A four-to-twelve-month practical placement in applied sciences, computing or engineering,
+  working on supervised technical projects at CERN.
+eligibility_geographies:
+- scope: region
+  basis: nationality
+  values:
+  - CERN Member and Associate Member States
+locations:
+- scope: country
+  values:
+  - Switzerland
+delivery: in-person
+student_levels:
+- undergraduate
+- postgraduate
+fields:
+- engineering
+- applied-physics
+- computer-science
+- mathematics
+- robotics
+eligibility_summary: Nationals of CERN Member or Associate Member States who have completed
+  at least 18 months of study by selection, remain full-time students throughout the placement,
+  and have English or French proficiency. PhD students and holders are excluded. Country recruitment
+  ceilings may restrict eligibility; the current programme page lists Pakistan, Lithuania, Latvia,
+  Cyprus, Croatia and Turkey as excluded.
+tags:
+- cern
+- technical-placement
+- research
+benefits:
+  summary: CHF 3,486 monthly allowance; health-insurance contribution is deducted. Travel and
+    family support depend on circumstances.
+  amount: 3486
+  currency: CHF
+  amount_type: stipend
+  amount_frequency: monthly
+  amount_qualifier: exact
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: Europe/Zurich
+  cycles:
+  - label: 2027-1 IT, Mathematics and Robotics call
+    opens_on: null
+    deadline: '2026-10-16'
+    deadline_time: '23:59'
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://careers.cern/programmes/technical-studentship/
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+- url: https://jobs.smartrecruiters.com/CERN/744000141918950-technical-studentship-it-mathematics-robotics-2027-1
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: The recorded deadline is for one specific track and has passed; it is not a universal
+  deadline for all technical fields. The programme page currently shows no matching open positions.
+  Check the next call and nationality ceilings. This is distinct from CERN's summer and openlab
+  programmes.

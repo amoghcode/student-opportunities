@@ -1,0 +1,67 @@
+id: microsoft-explore
+name: Explore Microsoft
+organization: Microsoft
+categories:
+- internship
+official_url: https://careers.microsoft.com/v2/global/en/exploremicrosoft
+application_url: null
+application_method: direct
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No explicit application fee statement was confirmed in the reviewed sources.
+description: A summer software-development internship in which early-year students work in small
+  groups on engineering projects and develop technical and product skills.
+eligibility_geographies:
+- scope: country
+  basis: study-location
+  values:
+  - India
+  - United States
+  - Canada
+  - Mexico
+locations:
+- scope: country
+  values:
+  - India
+  - United States
+delivery: in-person
+student_levels:
+- undergraduate
+fields:
+- computer-science
+- software-engineering
+- technology
+eligibility_summary: The current FAQ lists second-year bachelor's students studying in India,
+  the United States, Canada or Mexico; the first-year route lists only the United States, Canada
+  and Mexico. Introductory computer science and a semester of calculus or equivalents are required.
+  Confirm the individual posting's degree, location and work-authorization requirements.
+tags:
+- software-engineering
+- early-career
+- second-year
+benefits:
+  summary: Hands-on engineering projects, mentorship, peer collaboration and professional networking;
+    compensation is governed by the specific offer.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://careers.microsoft.com/v2/global/en/exploremicrosoft
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: The overview describes eight weeks in India and twelve weeks in the US. No verified open
+  student requisition or current deadline was captured; do not treat unrelated jobs surfaced
+  by the page as Explore openings. The India route is not presented as first-year eligible.

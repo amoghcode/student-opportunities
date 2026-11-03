@@ -1,0 +1,65 @@
+id: icpc
+name: International Collegiate Programming Contest
+organization: ICPC Foundation
+categories:
+- competition
+official_url: https://icpc.global/regionals/rules
+application_url: null
+application_method: through-institution
+application_fee:
+  required: null
+  amount: null
+  currency: null
+  notes: No explicit application fee statement was confirmed in the reviewed sources.
+description: A multi-stage university programming competition in which teams solve algorithmic
+  problems and may advance through regional contests to the World Finals.
+eligibility_geographies:
+- scope: global
+  basis: institution-affiliation
+  values: []
+locations: []
+delivery: varies
+student_levels:
+- undergraduate
+- postgraduate
+- doctoral
+fields:
+- computer-science
+- algorithms
+- mathematics
+eligibility_summary: Teams of three eligible students from one degree-granting institution,
+  registered with a coach. Students must carry at least a half-time degree load and meet season-specific
+  age/study-start and prior-participation limits. The 2026-27 rules use study starting in 2022
+  or later OR birth in 2003 or later, alongside the basic rules and exceptions. The coach certifies
+  eligibility.
+tags:
+- programming
+- team-competition
+- algorithms
+- icpc
+benefits:
+  summary: Competitive programming experience, teamwork and potential advancement to regional
+    championships and World Finals; awards and support vary.
+  amount: null
+  currency: null
+  amount_type: null
+  amount_frequency: null
+  amount_qualifier: null
+  equity_required: null
+schedule:
+  type: recurring
+  timezone: null
+  cycles: []
+  typical_open_months: []
+  typical_close_months: []
+lifecycle: active
+last_verified: '2026-11-03'
+verification_sources:
+- url: https://icpc.global/regionals/rules
+  accessed_on: '2026-11-03'
+  kind: official-program-page
+notes: Institution location determines the regional advancement path. Dates, entry fees and
+  regional details must be checked locally; there is no single worldwide registration deadline.
+  The rules include limits involving prior World Finals and regional participation, with a 2026-27
+  exception; the eligibility decision tree and coach must be consulted. Current rules were read
+  in a rendered browser.
